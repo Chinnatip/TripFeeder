@@ -4,7 +4,9 @@
   "description": "bootstrap template for FEED_TRIP from Provider API to Ready to Deploy DB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -p . && node dist/app",
+    "songserm": "tsc -p . && node dist/songserm"
   },
   "keywords": [
     "node",
