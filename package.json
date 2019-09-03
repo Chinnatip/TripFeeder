@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -p . && node dist/app",
-    "songserm": "tsc -p . && node dist/songserm"
+    "songserm_boat": "tsc -p . && path=json/songserm_product_boat.json suffix=/getProducts/1 node dist/songserm",
+    "songserm_combo": "tsc -p . && path=json/songserm_product_combo.json suffix=/getProducts/2 node dist/songserm"
   },
   "keywords": [
     "node",
@@ -16,6 +17,8 @@
   "author": "chinnatip taemkaeo",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^12.7.3",
+    "axios": "^0.19.0",
     "json2csv": "^4.5.2"
   }
 }
