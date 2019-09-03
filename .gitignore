@@ -1,6 +1,0 @@
-node_modules
-yarn.lock
-.next
-.env
-.DS_Store
-static/.DS_Store

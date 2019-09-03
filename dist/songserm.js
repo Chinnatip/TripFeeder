@@ -38,11 +38,12 @@ var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var axios_1 = require("axios");
 var fs = require('fs');
-//
+// Setup ProductUrl and AppKey
 var productURL = "https://sb.api.adv-tour.com/v1";
 var appKey = "44bf66fh896355a";
 var suffixKey = process.env.suffix;
 var writeFile = process.env.path;
+// Prepare AXIOS
 var axiosInstance = axios_1.default.create({
     baseURL: productURL,
     timeout: 5000,
@@ -50,7 +51,7 @@ var axiosInstance = axios_1.default.create({
         appKey: appKey
     }
 });
-//
+// Fetch Process and write file to JSON
 var getAxios = function () { return __awaiter(_this, void 0, void 0, function () { return __generator(this, function (_a) {
     switch (_a.label) {
         case 0: return [4 /*yield*/, axiosInstance.get(suffixKey)];
