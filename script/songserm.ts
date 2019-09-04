@@ -1,5 +1,5 @@
 import axios from 'axios'
-const fs = require('fs')
+import * as fs from 'fs'
 
 // Setup ProductUrl and AppKey
 const productURL = `https://sb.api.adv-tour.com/v1`
@@ -10,7 +10,7 @@ const writeFile = process.env.path
 // Prepare AXIOS
 const axiosInstance = axios.create({
   baseURL: productURL,
-  timeout: 5000,
+  // timeout: 5000,
   headers: {
     appKey: appKey
   }

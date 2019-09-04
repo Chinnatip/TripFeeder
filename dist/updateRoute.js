@@ -36,29 +36,51 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
-var axios_1 = require("axios");
 var fs = require("fs");
-// Setup ProductUrl and AppKey
-var productURL = "https://sb.api.adv-tour.com/v1";
-var appKey = "44bf66fh896355a";
-var suffixKey = process.env.suffix;
-var writeFile = process.env.path;
-// Prepare AXIOS
-var axiosInstance = axios_1.default.create({
-    baseURL: productURL,
-    // timeout: 5000,
-    headers: {
-        appKey: appKey
-    }
+var csv = require("csv-parser");
+var knex = require('../db/knex.js');
+function findRoute(id) {
+    return __awaiter(this, void 0, void 0, function () {
+        var result, error_1;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    result = [];
+                    _a.label = 1;
+                case 1:
+                    _a.trys.push([1, 3, 4, 5]);
+                    return [4 /*yield*/, knex('transport_routes').where({ id: id })];
+                case 2:
+                    result = _a.sent();
+                    return [3 /*break*/, 5];
+                case 3:
+                    error_1 = _a.sent();
+                    console.log(error_1);
+                    return [3 /*break*/, 5];
+                case 4: 
+                // console.log(result)
+                return [2 /*return*/, result];
+                case 5: return [2 /*return*/];
+            }
+        });
+    });
+}
+fs.createReadStream('csv/sample.csv')
+    .pipe(csv())
+    .on('data', function (row) { return __awaiter(_this, void 0, void 0, function () {
+    var route;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0: return [4 /*yield*/, findRoute(row.kohRouteId)];
+            case 1:
+                route = _a.sent();
+                console.log(route);
+                return [2 /*return*/];
+        }
+    });
+}); })
+    .on('end', function () {
+    console.log('CSV file successfully processed');
 });
-// Fetch Process and write file to JSON
-var getAxios = function () { return __awaiter(_this, void 0, void 0, function () { return __generator(this, function (_a) {
-    switch (_a.label) {
-        case 0: return [4 /*yield*/, axiosInstance.get(suffixKey)];
-        case 1: return [2 /*return*/, _a.sent()];
-    }
-}); }); };
-getAxios().then(function (resp) {
-    return fs.writeFileSync(writeFile, JSON.stringify(resp.data.data, null, 2));
-});
-//# sourceMappingURL=songserm.js.map
+// findRoute(2438)
+//# sourceMappingURL=updateRoute.js.map

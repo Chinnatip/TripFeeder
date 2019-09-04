@@ -11,7 +11,9 @@
     "convert_songserm_boat": "json2csv -i ./json/songserm_product_boat.json -c ./json/product_field.json -o ./csv/songserm_boat.csv",
     "convert_songserm_combo": "json2csv -i ./json/songserm_product_combo.json -c ./json/product_field.json -o ./csv/songserm_combo.csv",
     "process_sonserm_boat": "yarn songserm_boat && yarn convert_songserm_boat",
-    "process_sonserm_combo": "yarn songserm_combo && yarn convert_songserm_combo"
+    "process_sonserm_combo": "yarn songserm_combo && yarn convert_songserm_combo",
+    "update": "tsc -p . && NODE_ENV=development node dist/updateRoute",
+    "update_prod": "tsc -p . && NODE_ENV=production node dist/updateRoute"
   },
   "keywords": [
     "node",
@@ -23,6 +25,12 @@
   "dependencies": {
     "@types/node": "^12.7.3",
     "axios": "^0.19.0",
-    "json2csv": "^4.5.2"
+    "csv-parser": "^2.3.0",
+    "dotenv": "^8.1.0",
+    "dotenv-flow": "^3.1.0",
+    "json2csv": "^4.5.2",
+    "knex": "^0.19.3",
+    "pg": "^7.12.1",
+    "util": "^0.12.1"
   }
 }
