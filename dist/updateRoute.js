@@ -38,40 +38,53 @@ var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var csv = require("csv-parser");
-var knex = require('../db/knex.js');
-function findRoute(id) {
+var knex = require("../db/knex");
+//
+function findAndUpdateRoute(id, productNumber, ref) {
     return __awaiter(this, void 0, void 0, function () {
-        var result, error_1;
+        var res, error_1;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    result = [];
-                    _a.label = 1;
+                    _a.trys.push([0, 3, , 4]);
+                    // update data
+                    return [4 /*yield*/, knex('transport_routes')
+                            .where({ id: id })
+                            .update({
+                            operator_key: productNumber,
+                            operator_ref_id: ref,
+                            booking_engine: true
+                        })
+                        // Log result
+                    ];
                 case 1:
-                    _a.trys.push([1, 3, 4, 5]);
-                    return [4 /*yield*/, knex('transport_routes').where({ id: id })];
+                    // update data
+                    _a.sent();
+                    return [4 /*yield*/, knex('transport_routes')
+                            .where({ id: id })
+                            .first()
+                            .select('id', 'operator_key', 'operator_ref_id', 'name', 'company_id', 'default_price', 'net_price', 'suggest_price', 'booking_engine')];
                 case 2:
-                    result = _a.sent();
-                    return [3 /*break*/, 5];
+                    res = _a.sent();
+                    return [2 /*return*/, res];
                 case 3:
                     error_1 = _a.sent();
-                    console.log(error_1);
-                    return [3 /*break*/, 5];
-                case 4: 
-                // console.log(result)
-                return [2 /*return*/, result];
-                case 5: return [2 /*return*/];
+                    throw new error_1();
+                case 4: return [2 /*return*/];
             }
         });
     });
 }
+//
 fs.createReadStream('csv/sample.csv')
     .pipe(csv())
     .on('data', function (row) { return __awaiter(_this, void 0, void 0, function () {
-    var route;
+    var id, productNumber, ref, route;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4 /*yield*/, findRoute(row.kohRouteId)];
+            case 0:
+                id = row.kohRouteId, productNumber = row.productNo, ref = row.ref;
+                return [4 /*yield*/, findAndUpdateRoute(id, productNumber, ref)];
             case 1:
                 route = _a.sent();
                 console.log(route);
