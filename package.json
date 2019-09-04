@@ -9,7 +9,9 @@
     "songserm_boat": "tsc -p . && path=json/songserm_product_boat.json suffix=/getProducts/1 node dist/songserm",
     "songserm_combo": "tsc -p . && path=json/songserm_product_combo.json suffix=/getProducts/2 node dist/songserm",
     "convert_songserm_boat": "json2csv -i ./json/songserm_product_boat.json -c ./json/product_field.json -o ./csv/songserm_boat.csv",
-    "convert_songserm_combo": "json2csv -i ./json/songserm_product_combo.json -c ./json/product_field.json -o ./csv/songserm_combo.csv"
+    "convert_songserm_combo": "json2csv -i ./json/songserm_product_combo.json -c ./json/product_field.json -o ./csv/songserm_combo.csv",
+    "process_sonserm_boat": "yarn songserm_boat && yarn convert_songserm_boat",
+    "process_sonserm_combo": "yarn songserm_combo && yarn convert_songserm_combo"
   },
   "keywords": [
     "node",

@@ -1,5 +1,6 @@
 [
   "productNo",
+  "kohRouteId",
   "ref",
   "productName",
   "time",
