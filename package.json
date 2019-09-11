@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -p . && node dist/app",
+    "12go": "tsc -p . && node dist/12go ",
+    "convert_12go": "json2csv -i ./json/12go.json -f priority,changefreq,lastmod,loc -o ./csv/12go.csv",
+    "book": "tsc -p . && node dist/book_away ",
+    "convert_book": "json2csv -i ./json/book_away.json -f priority,url -o ./csv/book_away.csv",
     "songserm_boat": "tsc -p . && path=json/songserm_product_boat.json suffix=/getProducts/1 node dist/songserm",
     "songserm_combo": "tsc -p . && path=json/songserm_product_combo.json suffix=/getProducts/2 node dist/songserm",
     "convert_songserm_boat": "json2csv -i ./json/songserm_product_boat.json -c ./json/product_field.json -o ./csv/songserm_boat.csv",
@@ -31,6 +35,7 @@
     "json2csv": "^4.5.2",
     "knex": "^0.19.3",
     "pg": "^7.12.1",
-    "util": "^0.12.1"
+    "util": "^0.12.1",
+    "xml-js": "^1.6.11"
   }
 }

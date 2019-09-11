@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import * as csv from 'csv-parser'
 import * as knex from '../db/knex'
 //
+const filePath = `csv/songserm_combo.csv`
 async function findAndUpdateRoute(id, productNumber, ref) {
   try {
     // update data
@@ -29,14 +30,15 @@ async function findAndUpdateRoute(id, productNumber, ref) {
       )
     return res
   } catch (error) {
+    console.log('err >>>', error)
     throw new error()
   }
 }
 //
-fs.createReadStream('csv/sample.csv')
+fs.createReadStream(filePath)
   .pipe(csv())
   .on('data', async row => {
-    const { kohRouteId: id, productNo: productNumber, ref } = row
+    const { koh_route_id: id, productNo: productNumber, ref } = row
     const route = await findAndUpdateRoute(id, productNumber, ref)
     console.log(route)
   })

@@ -37,65 +37,27 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
-var csv = require("csv-parser");
-var knex = require("../db/knex");
-//
-var filePath = "csv/songserm_combo.csv";
-function findAndUpdateRoute(id, productNumber, ref) {
-    return __awaiter(this, void 0, void 0, function () {
-        var res, error_1;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    _a.trys.push([0, 3, , 4]);
-                    // update data
-                    return [4 /*yield*/, knex('transport_routes')
-                            .where({ id: id })
-                            .update({
-                            operator_key: productNumber,
-                            operator_ref_id: ref,
-                            booking_engine: true
-                        })
-                        // Log result
-                    ];
-                case 1:
-                    // update data
-                    _a.sent();
-                    return [4 /*yield*/, knex('transport_routes')
-                            .where({ id: id })
-                            .first()
-                            .select('id', 'operator_key', 'operator_ref_id', 'name', 'company_id', 'default_price', 'net_price', 'suggest_price', 'booking_engine')];
-                case 2:
-                    res = _a.sent();
-                    return [2 /*return*/, res];
-                case 3:
-                    error_1 = _a.sent();
-                    console.log('err >>>', error_1);
-                    throw new error_1();
-                case 4: return [2 /*return*/];
-            }
-        });
-    });
-}
-//
-fs.createReadStream(filePath)
-    .pipe(csv())
-    .on('data', function (row) { return __awaiter(_this, void 0, void 0, function () {
-    var id, productNumber, ref, route;
+var util = require('util');
+var readFile = util.promisify(fs.readFile);
+var speaker = function (path) { return __awaiter(_this, void 0, void 0, function () {
+    var data, splitURL, result;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0:
-                id = row.koh_route_id, productNumber = row.productNo, ref = row.ref;
-                return [4 /*yield*/, findAndUpdateRoute(id, productNumber, ref)];
+            case 0: return [4 /*yield*/, readFile(path, 'utf8')];
             case 1:
-                route = _a.sent();
-                console.log(route);
+                data = _a.sent();
+                splitURL = data.split(' https://www.bookaway.com');
+                result = splitURL.map(function (text) {
+                    var lastSplit = text.split(' ');
+                    return {
+                        url: "https://www.bookaway.com" + lastSplit[0],
+                        priority: lastSplit[1]
+                    };
+                });
+                fs.writeFileSync('./json/book_away.json', JSON.stringify(result, null, 2));
                 return [2 /*return*/];
         }
     });
-}); })
-    .on('end', function () {
-    console.log('CSV file successfully processed');
-});
-// findRoute(2438)
-//# sourceMappingURL=updateRoute.js.map
+}); };
+speaker('other/book_away.rtf');
+//# sourceMappingURL=book_away.js.map

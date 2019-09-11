@@ -1,0 +1,950 @@
+[
+  {
+    "path": "/travel/koh-tao/koh-lanta",
+    "id": 5375,
+    "pureUrl": "koh-tao-koh-lanta",
+    "checkRoute": "create route koh-tao-koh-lanta"
+  },
+  {
+    "path": "/travel/phuket/koh-phi-phi",
+    "id": 356,
+    "pureUrl": "phuket-koh-phi-phi",
+    "checkRoute": "create route phuket-koh-phi-phi"
+  },
+  {
+    "path": "/travel/suratthani/koh-samui",
+    "id": 732,
+    "pureUrl": "suratthani-koh-samui",
+    "checkRoute": "create route suratthani-koh-samui"
+  },
+  {
+    "path": "/travel/koh-samui/suratthani",
+    "id": 5233,
+    "pureUrl": "koh-samui-suratthani",
+    "checkRoute": "create route koh-samui-suratthani"
+  },
+  {
+    "path": "/travel/krabi/koh-samui",
+    "id": 776,
+    "pureUrl": "krabi-koh-samui",
+    "checkRoute": "create route krabi-koh-samui"
+  },
+  {
+    "path": "/travel/koh-tao/donsak",
+    "id": 5377,
+    "pureUrl": "koh-tao-donsak",
+    "checkRoute": "create route koh-tao-donsak"
+  },
+  {
+    "path": "/travel/koh-tao/bangkok",
+    "id": 216,
+    "pureUrl": "koh-tao-bangkok",
+    "checkRoute": "create route koh-tao-bangkok"
+  },
+  {
+    "path": "/travel/koh-tao/suratthani",
+    "id": 250,
+    "pureUrl": "koh-tao-suratthani",
+    "checkRoute": "create route koh-tao-suratthani"
+  },
+  {
+    "path": "/travel/koh-phangan/koh-samui",
+    "id": 5378,
+    "pureUrl": "koh-phangan-koh-samui",
+    "checkRoute": "create route koh-phangan-koh-samui"
+  },
+  {
+    "path": "/travel/donsak/phuket",
+    "id": 2201,
+    "pureUrl": "donsak-phuket",
+    "checkRoute": "create route donsak-phuket"
+  },
+  {
+    "path": "/travel/koh-tao/ao-nang-krabi",
+    "id": 214,
+    "pureUrl": "koh-tao-ao-nang-krabi",
+    "checkRoute": "create route koh-tao-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/koh-samui/khao-sok",
+    "id": 5174,
+    "pureUrl": "koh-samui-khao-sok",
+    "checkRoute": "create route koh-samui-khao-sok"
+  },
+  {
+    "path": "/travel/koh-phangan/khao-sok",
+    "id": 5379,
+    "pureUrl": "koh-phangan-khao-sok",
+    "checkRoute": "create route koh-phangan-khao-sok"
+  },
+  {
+    "path": "/travel/koh-tao/khao-sok",
+    "id": 227,
+    "pureUrl": "koh-tao-khao-sok",
+    "checkRoute": "create route koh-tao-khao-sok"
+  },
+  {
+    "path": "/travel/chiangmai/pai",
+    "id": 2559,
+    "pureUrl": "chiangmai-pai",
+    "checkRoute": "create route chiangmai-pai"
+  },
+  {
+    "path": "/travel/koh-phangan/ao-nang-krabi",
+    "id": 5381,
+    "pureUrl": "koh-phangan-ao-nang-krabi",
+    "checkRoute": "create route koh-phangan-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/suratthani/khao-sok",
+    "id": 823,
+    "pureUrl": "suratthani-khao-sok",
+    "checkRoute": "create route suratthani-khao-sok"
+  },
+  {
+    "path": "/travel/koh-phangan/chumporn",
+    "id": 5172,
+    "pureUrl": "koh-phangan-chumporn",
+    "checkRoute": "create route koh-phangan-chumporn"
+  },
+  {
+    "path": "/travel/koh-phangan/koh-lanta",
+    "id": 5382,
+    "pureUrl": "koh-phangan-koh-lanta",
+    "checkRoute": "create route koh-phangan-koh-lanta"
+  },
+  {
+    "path": "/travel/koh-phangan/suratthani",
+    "id": 148,
+    "pureUrl": "koh-phangan-suratthani",
+    "checkRoute": "create route koh-phangan-suratthani"
+  },
+  {
+    "path": "/travel/railay/koh-phi-phi",
+    "id": 2512,
+    "pureUrl": "railay-koh-phi-phi",
+    "checkRoute": "create route railay-koh-phi-phi"
+  },
+  {
+    "path": "/travel/koh-phangan/koh-tao",
+    "id": 118,
+    "pureUrl": "koh-phangan-koh-tao",
+    "checkRoute": "create route koh-phangan-koh-tao"
+  },
+  {
+    "path": "/travel/koh-phangan/donsak",
+    "id": 5384,
+    "pureUrl": "koh-phangan-donsak",
+    "checkRoute": "create route koh-phangan-donsak"
+  },
+  {
+    "path": "/travel/koh-phangan/phuket",
+    "id": 132,
+    "pureUrl": "koh-phangan-phuket",
+    "checkRoute": "create route koh-phangan-phuket"
+  },
+  {
+    "path": "/travel/phuket/khao-sok",
+    "id": 2787,
+    "pureUrl": "phuket-khao-sok",
+    "checkRoute": "create route phuket-khao-sok"
+  },
+  {
+    "path": "/travel/koh-samui/koh-lanta",
+    "id": 5388,
+    "pureUrl": "koh-samui-koh-lanta",
+    "checkRoute": "create route koh-samui-koh-lanta"
+  },
+  {
+    "path": "/travel/phuket/krabi",
+    "id": 2804,
+    "pureUrl": "phuket-krabi",
+    "checkRoute": "create route phuket-krabi"
+  },
+  {
+    "path": "/travel/koh-tao/koh-samui",
+    "id": 235,
+    "pureUrl": "koh-tao-koh-samui",
+    "checkRoute": "create route koh-tao-koh-samui"
+  },
+  {
+    "path": "/travel/suratthani/koh-phi-phi",
+    "id": 5226,
+    "pureUrl": "suratthani-koh-phi-phi",
+    "checkRoute": "create route suratthani-koh-phi-phi"
+  },
+  {
+    "path": "/travel/koh-samui/donsak",
+    "id": 5389,
+    "pureUrl": "koh-samui-donsak",
+    "checkRoute": "create route koh-samui-donsak"
+  },
+  {
+    "path": "/travel/suratthani/koh-lanta",
+    "id": 5227,
+    "pureUrl": "suratthani-koh-lanta",
+    "checkRoute": "create route suratthani-koh-lanta"
+  },
+  {
+    "path": "/travel/koh-phangan/bangkok",
+    "id": 845,
+    "pureUrl": "koh-phangan-bangkok",
+    "checkRoute": "create route koh-phangan-bangkok"
+  },
+  {
+    "path": "/travel/koh-tao/koh-phangan",
+    "id": 231,
+    "pureUrl": "koh-tao-koh-phangan",
+    "checkRoute": "create route koh-tao-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-samui/phuket",
+    "id": 5391,
+    "pureUrl": "koh-samui-phuket",
+    "checkRoute": "create route koh-samui-phuket"
+  },
+  {
+    "path": "/travel/phuket/koh-samui",
+    "id": 2599,
+    "pureUrl": "phuket-koh-samui",
+    "checkRoute": "create route phuket-koh-samui"
+  },
+  {
+    "path": "/travel/donsak/koh-samui",
+    "id": 5393,
+    "pureUrl": "donsak-koh-samui",
+    "checkRoute": "create route donsak-koh-samui"
+  },
+  {
+    "path": "/travel/phuket/phang-nga",
+    "id": 2788,
+    "pureUrl": "phuket-phang-nga",
+    "checkRoute": "create route phuket-phang-nga"
+  },
+  {
+    "path": "/travel/donsak/koh-phangan",
+    "id": 5395,
+    "pureUrl": "donsak-koh-phangan",
+    "checkRoute": "create route donsak-koh-phangan"
+  },
+  {
+    "path": "/travel/phuket/railay",
+    "id": 2807,
+    "pureUrl": "phuket-railay",
+    "checkRoute": "create route phuket-railay"
+  },
+  {
+    "path": "/travel/phuket/koh-tao",
+    "id": 279,
+    "pureUrl": "phuket-koh-tao",
+    "checkRoute": "create route phuket-koh-tao"
+  },
+  {
+    "path": "/travel/phuket/koh-phangan",
+    "id": 275,
+    "pureUrl": "phuket-koh-phangan",
+    "checkRoute": "create route phuket-koh-phangan"
+  },
+  {
+    "path": "/travel/donsak/koh-tao",
+    "id": 5397,
+    "pureUrl": "donsak-koh-tao",
+    "checkRoute": "create route donsak-koh-tao"
+  },
+  {
+    "path": "/travel/bangkok/koh-samui",
+    "id": 5405,
+    "pureUrl": "bangkok-koh-samui",
+    "checkRoute": "create route bangkok-koh-samui"
+  },
+  {
+    "path": "/travel/hat-yai/koh-samui",
+    "id": 832,
+    "pureUrl": "hat-yai-koh-samui",
+    "checkRoute": "create route hat-yai-koh-samui"
+  },
+  {
+    "path": "/travel/bangkok/suratthani",
+    "id": 5406,
+    "pureUrl": "bangkok-suratthani",
+    "checkRoute": "create route bangkok-suratthani"
+  },
+  {
+    "path": "/travel/koh-phi-phi/phuket",
+    "id": 2516,
+    "pureUrl": "koh-phi-phi-phuket",
+    "checkRoute": "create route koh-phi-phi-phuket"
+  },
+  {
+    "path": "/travel/suratthani/bangkok",
+    "id": 5407,
+    "pureUrl": "suratthani-bangkok",
+    "checkRoute": "create route suratthani-bangkok"
+  },
+  {
+    "path": "/travel/satun/koh-lipe",
+    "id": 5370,
+    "pureUrl": "satun-koh-lipe",
+    "checkRoute": "create route satun-koh-lipe"
+  },
+  {
+    "path": "/travel/koh-phi-phi/bangkok",
+    "id": 5399,
+    "pureUrl": "koh-phi-phi-bangkok",
+    "checkRoute": "create route koh-phi-phi-bangkok"
+  },
+  {
+    "path": "/travel/koh-phangan/hua-hin",
+    "id": 101,
+    "pureUrl": "koh-phangan-hua-hin",
+    "checkRoute": "create route koh-phangan-hua-hin"
+  },
+  {
+    "path": "/travel/suratthani/koh-phangan",
+    "id": 70,
+    "pureUrl": "suratthani-koh-phangan",
+    "checkRoute": "create route suratthani-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-samui/krabi",
+    "id": 184,
+    "pureUrl": "koh-samui-krabi",
+    "checkRoute": "create route koh-samui-krabi"
+  },
+  {
+    "path": "/travel/phuket/pattalung",
+    "id": 2794,
+    "pureUrl": "phuket-pattalung",
+    "checkRoute": "create route phuket-pattalung"
+  },
+  {
+    "path": "/travel/bangkok/koh-phangan",
+    "id": 5413,
+    "pureUrl": "bangkok-koh-phangan",
+    "checkRoute": "create route bangkok-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-samui/nakhon-sri-thammarat",
+    "id": 194,
+    "pureUrl": "koh-samui-nakhon-sri-thammarat",
+    "checkRoute": "create route koh-samui-nakhon-sri-thammarat"
+  },
+  {
+    "path": "/travel/phuket/ao-nang-krabi",
+    "id": 2792,
+    "pureUrl": "phuket-ao-nang-krabi",
+    "checkRoute": "create route phuket-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/koh-lipe/koh-ngai",
+    "id": 2540,
+    "pureUrl": "koh-lipe-koh-ngai",
+    "checkRoute": "create route koh-lipe-koh-ngai"
+  },
+  {
+    "path": "/travel/koh-lipe/koh-mook",
+    "id": 2538,
+    "pureUrl": "koh-lipe-koh-mook",
+    "checkRoute": "create route koh-lipe-koh-mook"
+  },
+  {
+    "path": "/travel/koh-samui/ao-nang-krabi",
+    "id": 159,
+    "pureUrl": "koh-samui-ao-nang-krabi",
+    "checkRoute": "create route koh-samui-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/chumporn/koh-phangan",
+    "id": 5416,
+    "pureUrl": "chumporn-koh-phangan",
+    "checkRoute": "create route chumporn-koh-phangan"
+  },
+  {
+    "path": "/travel/chumporn/koh-samui",
+    "id": 5417,
+    "pureUrl": "chumporn-koh-samui",
+    "checkRoute": "create route chumporn-koh-samui"
+  },
+  {
+    "path": "/travel/koh-lipe/langawi",
+    "id": 2552,
+    "pureUrl": "koh-lipe-langawi",
+    "checkRoute": "create route koh-lipe-langawi"
+  },
+  {
+    "path": "/travel/krabi/koh-lanta",
+    "id": 5303,
+    "pureUrl": "krabi-koh-lanta",
+    "checkRoute": "create route krabi-koh-lanta"
+  },
+  {
+    "path": "/travel/koh-samui/koh-tao",
+    "id": 183,
+    "pureUrl": "koh-samui-koh-tao",
+    "checkRoute": "create route koh-samui-koh-tao"
+  },
+  {
+    "path": "/travel/koh-samui/bangkok",
+    "id": 150,
+    "pureUrl": "koh-samui-bangkok",
+    "checkRoute": "create route koh-samui-bangkok"
+  },
+  {
+    "path": "/travel/koh-samui/koh-phangan",
+    "id": 5404,
+    "pureUrl": "koh-samui-koh-phangan",
+    "checkRoute": "create route koh-samui-koh-phangan"
+  },
+  {
+    "path": "/travel/ao-nang-krabi/koh-yao-yai",
+    "id": 5249,
+    "pureUrl": "ao-nang-krabi-koh-yao-yai",
+    "checkRoute": "create route ao-nang-krabi-koh-yao-yai"
+  },
+  {
+    "path": "/travel/bangkok/koh-kood",
+    "id": 2,
+    "pureUrl": "bangkok-koh-kood",
+    "checkRoute": "create route bangkok-koh-kood"
+  },
+  {
+    "path": "/travel/krabi/khao-sok",
+    "id": 31,
+    "pureUrl": "krabi-khao-sok",
+    "checkRoute": "create route krabi-khao-sok"
+  },
+  {
+    "path": "/travel/ao-nang-krabi/phuket",
+    "id": 5250,
+    "pureUrl": "ao-nang-krabi-phuket",
+    "checkRoute": "create route ao-nang-krabi-phuket"
+  },
+  {
+    "path": "/travel/krabi/phuket",
+    "id": 45,
+    "pureUrl": "krabi-phuket",
+    "checkRoute": "create route krabi-phuket"
+  },
+  {
+    "path": "/travel/krabi/suratthani",
+    "id": 50,
+    "pureUrl": "krabi-suratthani",
+    "checkRoute": "create route krabi-suratthani"
+  },
+  {
+    "path": "/travel/koh-yao-yai/phuket",
+    "id": 5251,
+    "pureUrl": "koh-yao-yai-phuket",
+    "checkRoute": "create route koh-yao-yai-phuket"
+  },
+  {
+    "path": "/travel/chumporn/koh-tao",
+    "id": 67,
+    "pureUrl": "chumporn-koh-tao",
+    "checkRoute": "create route chumporn-koh-tao"
+  },
+  {
+    "path": "/travel/koh-yao-yai/ao-nang-krabi",
+    "id": 5252,
+    "pureUrl": "koh-yao-yai-ao-nang-krabi",
+    "checkRoute": "create route koh-yao-yai-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/hua-hin/koh-phangan",
+    "id": 80,
+    "pureUrl": "hua-hin-koh-phangan",
+    "checkRoute": "create route hua-hin-koh-phangan"
+  },
+  {
+    "path": "/travel/suratthani/koh-tao",
+    "id": 77,
+    "pureUrl": "suratthani-koh-tao",
+    "checkRoute": "create route suratthani-koh-tao"
+  },
+  {
+    "path": "/travel/phuket/koh-yao-yai",
+    "id": 5253,
+    "pureUrl": "phuket-koh-yao-yai",
+    "checkRoute": "create route phuket-koh-yao-yai"
+  },
+  {
+    "path": "/travel/bangkok/hua-hin",
+    "id": 5320,
+    "pureUrl": "bangkok-hua-hin",
+    "checkRoute": "create route bangkok-hua-hin"
+  },
+  {
+    "path": "/travel/koh-phangan/koh-phi-phi",
+    "id": 108,
+    "pureUrl": "koh-phangan-koh-phi-phi",
+    "checkRoute": "create route koh-phangan-koh-phi-phi"
+  },
+  {
+    "path": "/travel/koh-phangan/nakhon-sri-thammarat",
+    "id": 126,
+    "pureUrl": "koh-phangan-nakhon-sri-thammarat",
+    "checkRoute": "create route koh-phangan-nakhon-sri-thammarat"
+  },
+  {
+    "path": "/travel/koh-phi-phi/suratthani",
+    "id": 792,
+    "pureUrl": "koh-phi-phi-suratthani",
+    "checkRoute": "create route koh-phi-phi-suratthani"
+  },
+  {
+    "path": "/travel/suratthani/donsak",
+    "id": 803,
+    "pureUrl": "suratthani-donsak",
+    "checkRoute": "create route suratthani-donsak"
+  },
+  {
+    "path": "/travel/koh-lanta/krabi",
+    "id": 5312,
+    "pureUrl": "koh-lanta-krabi",
+    "checkRoute": "create route koh-lanta-krabi"
+  },
+  {
+    "path": "/travel/koh-tao/chumporn",
+    "id": 219,
+    "pureUrl": "koh-tao-chumporn",
+    "checkRoute": "create route koh-tao-chumporn"
+  },
+  {
+    "path": "/travel/chiangmai/koh-chang",
+    "id": 5327,
+    "pureUrl": "chiangmai-koh-chang",
+    "checkRoute": "create route chiangmai-koh-chang"
+  },
+  {
+    "path": "/travel/koh-tao/hat-yai",
+    "id": 222,
+    "pureUrl": "koh-tao-hat-yai",
+    "checkRoute": "create route koh-tao-hat-yai"
+  },
+  {
+    "path": "/travel/koh-chang/chiangmai",
+    "id": 5328,
+    "pureUrl": "koh-chang-chiangmai",
+    "checkRoute": "create route koh-chang-chiangmai"
+  },
+  {
+    "path": "/travel/koh-chang/koh-samui",
+    "id": 5329,
+    "pureUrl": "koh-chang-koh-samui",
+    "checkRoute": "create route koh-chang-koh-samui"
+  },
+  {
+    "path": "/travel/koh-samui/chumporn",
+    "id": 713,
+    "pureUrl": "koh-samui-chumporn",
+    "checkRoute": "create route koh-samui-chumporn"
+  },
+  {
+    "path": "/travel/nakhon-sri-thammarat/koh-phangan",
+    "id": 265,
+    "pureUrl": "nakhon-sri-thammarat-koh-phangan",
+    "checkRoute": "create route nakhon-sri-thammarat-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-tao/nakhon-sri-thammarat",
+    "id": 243,
+    "pureUrl": "koh-tao-nakhon-sri-thammarat",
+    "checkRoute": "create route koh-tao-nakhon-sri-thammarat"
+  },
+  {
+    "path": "/travel/nakhon-sri-thammarat/koh-samui",
+    "id": 270,
+    "pureUrl": "nakhon-sri-thammarat-koh-samui",
+    "checkRoute": "create route nakhon-sri-thammarat-koh-samui"
+  },
+  {
+    "path": "/travel/nakhon-sri-thammarat/koh-tao",
+    "id": 273,
+    "pureUrl": "nakhon-sri-thammarat-koh-tao",
+    "checkRoute": "create route nakhon-sri-thammarat-koh-tao"
+  },
+  {
+    "path": "/travel/ao-nang-krabi/koh-lanta",
+    "id": 3841,
+    "pureUrl": "ao-nang-krabi-koh-lanta",
+    "checkRoute": "create route ao-nang-krabi-koh-lanta"
+  },
+  {
+    "path": "/travel/koh-samui/hua-hin",
+    "id": 866,
+    "pureUrl": "koh-samui-hua-hin",
+    "checkRoute": "create route koh-samui-hua-hin"
+  },
+  {
+    "path": "/travel/koh-lanta/koh-phi-phi",
+    "id": 340,
+    "pureUrl": "koh-lanta-koh-phi-phi",
+    "checkRoute": "create route koh-lanta-koh-phi-phi"
+  },
+  {
+    "path": "/travel/koh-samui/koh-chang",
+    "id": 5330,
+    "pureUrl": "koh-samui-koh-chang",
+    "checkRoute": "create route koh-samui-koh-chang"
+  },
+  {
+    "path": "/travel/krabi/koh-phi-phi",
+    "id": 351,
+    "pureUrl": "krabi-koh-phi-phi",
+    "checkRoute": "create route krabi-koh-phi-phi"
+  },
+  {
+    "path": "/travel/koh-lanta/ao-nang-krabi",
+    "id": 3859,
+    "pureUrl": "koh-lanta-ao-nang-krabi",
+    "checkRoute": "create route koh-lanta-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/koh-phi-phi/krabi",
+    "id": 345,
+    "pureUrl": "koh-phi-phi-krabi",
+    "checkRoute": "create route koh-phi-phi-krabi"
+  },
+  {
+    "path": "/travel/donsak/suratthani",
+    "id": 808,
+    "pureUrl": "donsak-suratthani",
+    "checkRoute": "create route donsak-suratthani"
+  },
+  {
+    "path": "/travel/koh-samui/railay",
+    "id": 770,
+    "pureUrl": "koh-samui-railay",
+    "checkRoute": "create route koh-samui-railay"
+  },
+  {
+    "path": "/travel/krabi/koh-phangan",
+    "id": 781,
+    "pureUrl": "krabi-koh-phangan",
+    "checkRoute": "create route krabi-koh-phangan"
+  },
+  {
+    "path": "/travel/railay/koh-samui",
+    "id": 780,
+    "pureUrl": "railay-koh-samui",
+    "checkRoute": "create route railay-koh-samui"
+  },
+  {
+    "path": "/travel/chiangmai/bangkok",
+    "id": 839,
+    "pureUrl": "chiangmai-bangkok",
+    "checkRoute": "create route chiangmai-bangkok"
+  },
+  {
+    "path": "/travel/koh-samui/hat-yai",
+    "id": 830,
+    "pureUrl": "koh-samui-hat-yai",
+    "checkRoute": "create route koh-samui-hat-yai"
+  },
+  {
+    "path": "/travel/bangkok/siemreap",
+    "id": 5348,
+    "pureUrl": "bangkok-siemreap",
+    "checkRoute": "create route bangkok-siemreap"
+  },
+  {
+    "path": "/travel/koh-samui/koh-phi-phi",
+    "id": 725,
+    "pureUrl": "koh-samui-koh-phi-phi",
+    "checkRoute": "create route koh-samui-koh-phi-phi"
+  },
+  {
+    "path": "/travel/krabi/koh-tao",
+    "id": 752,
+    "pureUrl": "krabi-koh-tao",
+    "checkRoute": "create route krabi-koh-tao"
+  },
+  {
+    "path": "/travel/koh-phi-phi/koh-phangan",
+    "id": 561,
+    "pureUrl": "koh-phi-phi-koh-phangan",
+    "checkRoute": "create route koh-phi-phi-koh-phangan"
+  },
+  {
+    "path": "/travel/suratthani/krabi",
+    "id": 762,
+    "pureUrl": "suratthani-krabi",
+    "checkRoute": "create route suratthani-krabi"
+  },
+  {
+    "path": "/travel/hua-hin/koh-tao",
+    "id": 84,
+    "pureUrl": "hua-hin-koh-tao",
+    "checkRoute": "create route hua-hin-koh-tao"
+  },
+  {
+    "path": "/travel/koh-phangan/krabi",
+    "id": 122,
+    "pureUrl": "koh-phangan-krabi",
+    "checkRoute": "create route koh-phangan-krabi"
+  },
+  {
+    "path": "/travel/koh-tao/hua-hin",
+    "id": 225,
+    "pureUrl": "koh-tao-hua-hin",
+    "checkRoute": "create route koh-tao-hua-hin"
+  },
+  {
+    "path": "/travel/koh-lipe/koh-kradan",
+    "id": 2536,
+    "pureUrl": "koh-lipe-koh-kradan",
+    "checkRoute": "create route koh-lipe-koh-kradan"
+  },
+  {
+    "path": "/travel/krabi/khao-lak",
+    "id": 30,
+    "pureUrl": "krabi-khao-lak",
+    "checkRoute": "create route krabi-khao-lak"
+  },
+  {
+    "path": "/travel/koh-phi-phi/koh-lanta",
+    "id": 342,
+    "pureUrl": "koh-phi-phi-koh-lanta",
+    "checkRoute": "create route koh-phi-phi-koh-lanta"
+  },
+  {
+    "path": "/travel/bangkok/railay",
+    "id": 677,
+    "pureUrl": "bangkok-railay",
+    "checkRoute": "create route bangkok-railay"
+  },
+  {
+    "path": "/travel/phuket/trang",
+    "id": 2793,
+    "pureUrl": "phuket-trang",
+    "checkRoute": "create route phuket-trang"
+  },
+  {
+    "path": "/travel/koh-phangan/railay",
+    "id": 705,
+    "pureUrl": "koh-phangan-railay",
+    "checkRoute": "create route koh-phangan-railay"
+  },
+  {
+    "path": "/travel/phuket/suratthani",
+    "id": 912,
+    "pureUrl": "phuket-suratthani",
+    "checkRoute": "create route phuket-suratthani"
+  },
+  {
+    "path": "/travel/bangkok/phnom-penh",
+    "id": 648,
+    "pureUrl": "bangkok-phnom-penh",
+    "checkRoute": "create route bangkok-phnom-penh"
+  },
+  {
+    "path": "/travel/siemreap/bangkok",
+    "id": 834,
+    "pureUrl": "siemreap-bangkok",
+    "checkRoute": "create route siemreap-bangkok"
+  },
+  {
+    "path": "/travel/bangkok/battambang",
+    "id": 645,
+    "pureUrl": "bangkok-battambang",
+    "checkRoute": "create route bangkok-battambang"
+  },
+  {
+    "path": "/travel/bangkok/koh-tao",
+    "id": 61,
+    "pureUrl": "bangkok-koh-tao",
+    "checkRoute": "create route bangkok-koh-tao"
+  },
+  {
+    "path": "/travel/koh-lanta/phuket",
+    "id": 23,
+    "pureUrl": "koh-lanta-phuket",
+    "checkRoute": "create route koh-lanta-phuket"
+  },
+  {
+    "path": "/travel/phuket/khao-lak",
+    "id": 2786,
+    "pureUrl": "phuket-khao-lak",
+    "checkRoute": "create route phuket-khao-lak"
+  },
+  {
+    "path": "/travel/phuket/hat-yai",
+    "id": 2795,
+    "pureUrl": "phuket-hat-yai",
+    "checkRoute": "create route phuket-hat-yai"
+  },
+  {
+    "path": "/travel/koh-lipe/koh-lanta",
+    "id": 2534,
+    "pureUrl": "koh-lipe-koh-lanta",
+    "checkRoute": "create route koh-lipe-koh-lanta"
+  },
+  {
+    "path": "/travel/hua-hin/koh-samui",
+    "id": 865,
+    "pureUrl": "hua-hin-koh-samui",
+    "checkRoute": "create route hua-hin-koh-samui"
+  },
+  {
+    "path": "/travel/ao-nang-krabi/koh-samui",
+    "id": 778,
+    "pureUrl": "ao-nang-krabi-koh-samui",
+    "checkRoute": "create route ao-nang-krabi-koh-samui"
+  },
+  {
+    "path": "/travel/railay/koh-phangan",
+    "id": 785,
+    "pureUrl": "railay-koh-phangan",
+    "checkRoute": "create route railay-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-tao/phuket",
+    "id": 245,
+    "pureUrl": "koh-tao-phuket",
+    "checkRoute": "create route koh-tao-phuket"
+  },
+  {
+    "path": "/travel/bangkok/chiangmai",
+    "id": 838,
+    "pureUrl": "bangkok-chiangmai",
+    "checkRoute": "create route bangkok-chiangmai"
+  },
+  {
+    "path": "/travel/koh-tao/krabi",
+    "id": 238,
+    "pureUrl": "koh-tao-krabi",
+    "checkRoute": "create route koh-tao-krabi"
+  },
+  {
+    "path": "/travel/donsak/bangkok",
+    "id": 855,
+    "pureUrl": "donsak-bangkok",
+    "checkRoute": "create route donsak-bangkok"
+  },
+  {
+    "path": "/travel/koh-tao/koh-phi-phi",
+    "id": 234,
+    "pureUrl": "koh-tao-koh-phi-phi",
+    "checkRoute": "create route koh-tao-koh-phi-phi"
+  },
+  {
+    "path": "/travel/donsak/koh-phi-phi",
+    "id": 772,
+    "pureUrl": "donsak-koh-phi-phi",
+    "checkRoute": "create route donsak-koh-phi-phi"
+  },
+  {
+    "path": "/travel/bangkok/koh-phi-phi",
+    "id": 706,
+    "pureUrl": "bangkok-koh-phi-phi",
+    "checkRoute": "create route bangkok-koh-phi-phi"
+  },
+  {
+    "path": "/travel/phuket/satun",
+    "id": 2796,
+    "pureUrl": "phuket-satun",
+    "checkRoute": "create route phuket-satun"
+  },
+  {
+    "path": "/travel/bangkok/krabi",
+    "id": 675,
+    "pureUrl": "bangkok-krabi",
+    "checkRoute": "create route bangkok-krabi"
+  },
+  {
+    "path": "/travel/koh-phi-phi/koh-samui",
+    "id": 777,
+    "pureUrl": "koh-phi-phi-koh-samui",
+    "checkRoute": "create route koh-phi-phi-koh-samui"
+  },
+  {
+    "path": "/travel/koh-lanta/koh-samui",
+    "id": 779,
+    "pureUrl": "koh-lanta-koh-samui",
+    "checkRoute": "create route koh-lanta-koh-samui"
+  },
+  {
+    "path": "/travel/ao-nang-krabi/koh-phangan",
+    "id": 783,
+    "pureUrl": "ao-nang-krabi-koh-phangan",
+    "checkRoute": "create route ao-nang-krabi-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-lanta/koh-phangan",
+    "id": 784,
+    "pureUrl": "koh-lanta-koh-phangan",
+    "checkRoute": "create route koh-lanta-koh-phangan"
+  },
+  {
+    "path": "/travel/koh-chang/bangkok",
+    "id": 647,
+    "pureUrl": "koh-chang-bangkok",
+    "checkRoute": "create route koh-chang-bangkok"
+  },
+  {
+    "path": "/travel/bangkok/koh-chang",
+    "id": 646,
+    "pureUrl": "bangkok-koh-chang",
+    "checkRoute": "create route bangkok-koh-chang"
+  },
+  {
+    "path": "/travel/bangkok/ao-nang-krabi",
+    "id": 676,
+    "pureUrl": "bangkok-ao-nang-krabi",
+    "checkRoute": "create route bangkok-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/koh-lipe/koh-bulone",
+    "id": 2529,
+    "pureUrl": "koh-lipe-koh-bulone",
+    "checkRoute": "create route koh-lipe-koh-bulone"
+  },
+  {
+    "path": "/travel/krabi/phang-nga",
+    "id": 43,
+    "pureUrl": "krabi-phang-nga",
+    "checkRoute": "create route krabi-phang-nga"
+  },
+  {
+    "path": "/travel/bangkok/koh-lanta",
+    "id": 5163,
+    "pureUrl": "bangkok-koh-lanta",
+    "checkRoute": "create route bangkok-koh-lanta"
+  },
+  {
+    "path": "/travel/suratthani/ao-nang-krabi",
+    "id": 764,
+    "pureUrl": "suratthani-ao-nang-krabi",
+    "checkRoute": "create route suratthani-ao-nang-krabi"
+  },
+  {
+    "path": "/travel/bangkok/khao-sok",
+    "id": 422,
+    "pureUrl": "bangkok-khao-sok",
+    "checkRoute": "create route bangkok-khao-sok"
+  },
+  {
+    "path": "/travel/krabi/krabi",
+    "id": 904,
+    "pureUrl": "krabi-krabi",
+    "checkRoute": "create route krabi-krabi"
+  },
+  {
+    "path": "/travel/khao-sok/krabi",
+    "id": 4707,
+    "pureUrl": "khao-sok-krabi",
+    "checkRoute": "create route khao-sok-krabi"
+  },
+  {
+    "path": "/travel/koh-tao/railay",
+    "id": 247,
+    "pureUrl": "koh-tao-railay",
+    "checkRoute": "create route koh-tao-railay"
+  },
+  {
+    "path": "/travel/phuket/koh-lanta",
+    "id": 5176,
+    "pureUrl": "phuket-koh-lanta",
+    "checkRoute": "create route phuket-koh-lanta"
+  }
+]
