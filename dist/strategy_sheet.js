@@ -50,6 +50,102 @@ var findSheet = function (sheetName, info) {
     });
     return info.worksheets[sheet_index];
 };
+var tripReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var route_id = item.routeid, service_id = item.serviceid, trip_id = item.tripid, trip_headsign = item.tripheadsign, direction_id = item.directionid, block_id = item.blockid, shape_id = item.shapeid;
+        bodyParser.push("\n" + route_id + "," + service_id + "," + trip_id + "," + trip_headsign + "," + direction_id + "," + block_id + "," + shape_id);
+    });
+    return {
+        path: 'trips',
+        header: 'route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id',
+        body: bodyParser
+    };
+};
+var routeReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var route_id = item.routeid, agency_id = item.agencyid, route_short_name = item.routeshortname, route_long_name = item.routelongname, route_desc = item.routedesc, route_type = item.routetype;
+        bodyParser.push("\n" + route_id + "," + agency_id + "," + route_short_name + "," + route_long_name + "," + route_desc + "," + route_type);
+    });
+    return {
+        path: 'routes',
+        header: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type',
+        body: bodyParser
+    };
+};
+var fareRuleReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var fare_id = item.fareid, route_id = item.routeid, origin_id = item.originid, destination_id = item.destinationid, contains_id = item.containsid;
+        bodyParser.push("\n" + fare_id + "," + route_id + "," + origin_id + "," + destination_id + "," + contains_id);
+    });
+    return {
+        path: 'fare_rules',
+        header: 'fare_id,route_id,origin_id,destination_id,contains_id',
+        body: bodyParser
+    };
+};
+var fareAttributeReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var fare_id = item.fareid, currency_type = item.currencytype, payment_method = item.paymentmethod, agency_id = item.agencyid, transfer_duration = item.transferduration, transfers = item.transfers, price = item.price, comment = item.comment;
+        bodyParser.push("\n" + fare_id + "," + price + "," + currency_type + "," + payment_method + "," + transfers + "," + agency_id + "," + transfer_duration + "," + comment);
+    });
+    return {
+        path: 'fare_attributes',
+        header: 'fare_id,price,currency_type,payment_method,transfers,agency_id,transfer_duration,comment',
+        body: bodyParser
+    };
+};
+var stopTimesReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var trip_id = item.tripid, departure_time = item.departuretime, arrival_time = item.arrivaltime, stop_id = item.stopid, stop_sequence = item.stopsequence, pickup_type = item.pickuptype, drop_off_type = item.dropofftype;
+        bodyParser.push("\n" + trip_id + "," + departure_time + "," + arrival_time + "," + stop_id + "," + stop_sequence + "," + pickup_type + "," + drop_off_type);
+    });
+    return {
+        path: 'stop_times',
+        header: 'trip_id,departure_time,arrival_time,stop_id,stop_sequence,pickup_type,drop_off_type',
+        body: bodyParser
+    };
+};
+var stopReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var stop_id = item.stopid, stop_name = item.stopname, stop_desc = item.stopdesc, stop_lat = item.stoplat, stop_lon = item.stoplon, zone_id = item.zoneid, stop_url = item.stopurl, location_type = item.locationtype, parent_station = item.parentstatio;
+        bodyParser.push("\n" + stop_id + "," + stop_name + "," + stop_desc + "," + stop_lat + "," + stop_lon + "," + zone_id + "," + stop_url + "," + location_type + "," + parent_station);
+    });
+    return {
+        path: 'stops',
+        header: 'stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station',
+        body: bodyParser
+    };
+};
+var calendarReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var service_id = item.serviceid, monday = item.monday, tuesday = item.tuesday, wednesday = item.wednesday, thursday = item.thursday, friday = item.friday, saturday = item.saturday, sunday = item.sunday, start_date = item.startdate, end_date = item.enddate;
+        bodyParser.push("\n" + service_id + "," + monday + "," + tuesday + "," + wednesday + "," + thursday + "," + friday + "," + saturday + "," + sunday + "," + start_date + "," + end_date);
+    });
+    return {
+        path: 'calendar',
+        header: 'service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date',
+        body: bodyParser
+    };
+};
+var agencyReconstruct = function (body) {
+    var bodyParser = [];
+    body.map(function (item) {
+        var agency_id = item.agencyid, agency_name = item.agencyname, agency_url = item.agencyurl, agency_timezone = item.agencytimezone, agency_phone = item.agencyphone;
+        bodyParser.push("\n" + agency_id + "," + agency_name + "," + agency_url + "," + agency_timezone + "," + agency_phone);
+    });
+    return {
+        path: 'agency',
+        header: 'agency_id,agency_name,agency_url,agency_timezone,agency_phone',
+        body: bodyParser
+    };
+};
 var templateReconstruct = function (body) {
     var bodyParser = [];
     body.map(function (item) {
@@ -87,6 +183,22 @@ exports.SHEET_Feeds = function (sheet_key, sheetName) { return __awaiter(void 0,
                         switch (sheetName) {
                             case 'template_file':
                                 resolve(templateReconstruct(rows));
+                            case 'agency':
+                                resolve(agencyReconstruct(rows));
+                            case 'calendar':
+                                resolve(calendarReconstruct(rows));
+                            case 'stops':
+                                resolve(stopReconstruct(rows));
+                            case 'stop_times':
+                                resolve(stopTimesReconstruct(rows));
+                            case 'fare_attributes':
+                                resolve(fareAttributeReconstruct(rows));
+                            case 'fare_rules':
+                                resolve(fareRuleReconstruct(rows));
+                            case 'routes':
+                                resolve(routeReconstruct(rows));
+                            case 'trips':
+                                resolve(tripReconstruct(rows));
                             default:
                                 resolve(rows);
                         }
