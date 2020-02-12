@@ -1,0 +1,9 @@
+departure_date,departure,departure_time,arrival,arrival_time,route_id,trip_id,agent_rate,selling_price,seat,max_availability,status,available
+12 Nov 2019,Koh Phi Phi Ton Sai Pier,07:00,Phuket Rassada Pier,09:00,KL001,KL001-191112,250,500,412,500,scheduled,on
+12 Nov 2019,Phuket Rassada Pier,10:00,Koh Phi Phi Ton Sai Pier,12:00,KL002,KL002-191112,250,500,491,500,scheduled,on
+12 Nov 2019,Phuket Rassada Pier,16:00,Koh Phi Phi Ton Sai Pier,18:00,KL003,KL003-191112,250,500,295,300,scheduled,on
+12 Nov 2019,Koh Phi Phi Ton Sai Pier,08:00,Phuket Rassada Pier,10:00,KL004,KL004-191112,250,500,200,200,scheduled,off
+11 Nov 2019,Koh Phi Phi Ton Sai Pier,07:00,Phuket Rassada Pier,09:00,KL001,KL001-191111,250,500,321,500,scheduled,on
+11 Nov 2019,Phuket Rassada Pier,10:00,Koh Phi Phi Ton Sai Pier,12:00,KL002,KL002-191111,250,500,282,500,scheduled,on
+11 Nov 2019,Phuket Rassada Pier,16:00,Koh Phi Phi Ton Sai Pier,18:00,KL003,KL003-191111,250,500,276,300,scheduled,on
+11 Nov 2019,Koh Phi Phi Ton Sai Pier,08:00,Phuket Rassada Pier,10:00,KL004,KL004-191111,250,500,188,200,scheduled,on

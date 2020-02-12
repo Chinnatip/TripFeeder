@@ -4,11 +4,11 @@
     "ref": "CPN0001",
     "productName": "Chumphon Pier 07:00 - Koh Tao 09:45",
     "time": "07:00",
-    "hourReserve": 1,
+    "arrivalTime": "09:45",
+    "hourReserve": 3,
     "duration": "2:45 hrs.",
     "map": "10.445133,99.24880600000006",
     "photo": "https://img.adv-tour.com/photo/boat/693374.jpg",
-    "arrivalTime": "09:45",
     "priceAdult": 400,
     "priceChild": 300,
     "sellingPriceAdult": 500,
@@ -24,24 +24,18 @@
     "destinationId": 9,
     "destination": "Matthaphon",
     "destinationToId": 99,
-    "destinationTo": "Mae Haad Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:45 hrs."
-      }
-    ]
+    "destinationTo": "Mae Haad Pier"
   },
   {
     "productNo": "B4",
     "ref": "DON0001",
     "productName": "Donsak Pier(Laem Thuat) 10:00 - Koh Samui 11.20",
     "time": "10:00",
+    "arrivalTime": "11:20",
     "hourReserve": 3,
     "duration": "1:20 hrs.",
     "map": "9.337484900000002,99.68132500000002",
     "photo": "https://img.adv-tour.com/photo/boat/802173.jpg",
-    "arrivalTime": "11:20",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -57,24 +51,18 @@
     "destinationId": 62,
     "destination": "Donsak Pier",
     "destinationToId": 87,
-    "destinationTo": "Nathon Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:20 hrs."
-      }
-    ]
+    "destinationTo": "Nathon Pier"
   },
   {
     "productNo": "B5",
     "ref": "DON0002",
     "productName": "Donsak Pier(Laem Thuat) 16:30 - Koh Samui 17:45",
     "time": "16:30",
+    "arrivalTime": "17:45",
     "hourReserve": 3,
     "duration": "1:15 hrs.",
     "map": "9.337484900000002,99.68132500000002",
     "photo": "https://img.adv-tour.com/photo/boat/158131.jpg",
-    "arrivalTime": "17:45",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -90,24 +78,18 @@
     "destinationId": 62,
     "destination": "Donsak Pier",
     "destinationToId": 87,
-    "destinationTo": "Nathon Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:15 hrs."
-      }
-    ]
+    "destinationTo": "Nathon Pier"
   },
   {
     "productNo": "B6",
     "ref": "KBV0001",
     "productName": "Krabi 09:00 - Koh Phi Phi 10:30",
     "time": "09:00",
+    "arrivalTime": "10:30",
     "hourReserve": 3,
     "duration": "1:30 hrs.",
     "map": "8.045908299999999, 98.90586729999995",
     "photo": "https://img.adv-tour.com/photo/boat/300311.jpg",
-    "arrivalTime": "10:30",
     "priceAdult": 350,
     "priceChild": 250,
     "sellingPriceAdult": 450,
@@ -123,24 +105,18 @@
     "destinationId": 21,
     "destination": "Klong Jilad",
     "destinationToId": 30,
-    "destinationTo": "Ton Sai Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:30 hrs."
-      }
-    ]
+    "destinationTo": "Ton Sai Pier"
   },
   {
     "productNo": "B7",
     "ref": "KBV0002",
     "productName": "Krabi 13:30 - Koh Phi Phi 15:00",
     "time": "13:30",
+    "arrivalTime": "15:00",
     "hourReserve": 2,
     "duration": "1:30 hrs.",
     "map": "8.045908299999999, 98.90586729999995",
     "photo": "https://img.adv-tour.com/photo/boat/760879.jpg",
-    "arrivalTime": "15:00",
     "priceAdult": 350,
     "priceChild": 250,
     "sellingPriceAdult": 450,
@@ -156,24 +132,18 @@
     "destinationId": 21,
     "destination": "Klong Jilad",
     "destinationToId": 30,
-    "destinationTo": "Ton Sai Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:30 hrs."
-      }
-    ]
+    "destinationTo": "Ton Sai Pier"
   },
   {
     "productNo": "B8",
     "ref": "PHIPHI0001",
     "productName": "Koh Phi Phi 09:00 - Phuket 11:00",
     "time": "09:00",
+    "arrivalTime": "11:00",
     "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "7.7379053,98.77061959999992",
     "photo": "https://img.adv-tour.com/photo/boat/1496481342_2.jpg",
-    "arrivalTime": "11:00",
     "priceAdult": 450,
     "priceChild": 350,
     "sellingPriceAdult": 750,
@@ -189,24 +159,18 @@
     "destinationId": 30,
     "destination": "Ton Sai Pier",
     "destinationToId": 58,
-    "destinationTo": "Rassada",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Rassada"
   },
   {
     "productNo": "B9",
     "ref": "PHIPHI0002",
     "productName": "Koh Phi Phi 14:30 - Phuket 16:30",
     "time": "14:30",
+    "arrivalTime": "16:30",
     "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "7.7379053,98.77061959999992",
     "photo": "https://img.adv-tour.com/photo/boat/1496481407_2.jpg",
-    "arrivalTime": "16:30",
     "priceAdult": 450,
     "priceChild": 350,
     "sellingPriceAdult": 750,
@@ -222,24 +186,18 @@
     "destinationId": 30,
     "destination": "Ton Sai Pier",
     "destinationToId": 58,
-    "destinationTo": "Rassada",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Rassada"
   },
   {
     "productNo": "B10",
     "ref": "PHIPHI0003",
     "productName": "Koh Phi Phi 10:30 - Krabi 12:00",
     "time": "10:30",
+    "arrivalTime": "12:00",
     "hourReserve": 3,
     "duration": "1:30 hrs.",
     "map": "7.7379053,98.77061959999992",
     "photo": "https://img.adv-tour.com/photo/boat/416138.jpg",
-    "arrivalTime": "12:00",
     "priceAdult": 350,
     "priceChild": 250,
     "sellingPriceAdult": 450,
@@ -255,24 +213,18 @@
     "destinationId": 30,
     "destination": "Ton Sai Pier",
     "destinationToId": 21,
-    "destinationTo": "Klong Jilad",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:30 hrs."
-      }
-    ]
+    "destinationTo": "Klong Jilad"
   },
   {
     "productNo": "B11",
     "ref": "PHIPHI0004",
     "productName": "Koh Phi Phi 15:30 - Krabi 17:00",
     "time": "15:30",
+    "arrivalTime": "17:00",
     "hourReserve": 3,
     "duration": "1:30 hrs.",
     "map": "7.7379053,98.77061959999992",
     "photo": "https://img.adv-tour.com/photo/boat/837970.jpg",
-    "arrivalTime": "17:00",
     "priceAdult": 350,
     "priceChild": 250,
     "sellingPriceAdult": 450,
@@ -288,24 +240,18 @@
     "destinationId": 30,
     "destination": "Ton Sai Pier",
     "destinationToId": 21,
-    "destinationTo": "Klong Jilad",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:30 hrs."
-      }
-    ]
+    "destinationTo": "Klong Jilad"
   },
   {
     "productNo": "B13",
     "ref": "PNG0002",
     "productName": "Koh Phangan 12:45 - Koh Tao 14:30",
     "time": "12:45",
-    "hourReserve": 2,
+    "arrivalTime": "14:30",
+    "hourReserve": 6,
     "duration": "1:45 hrs.",
     "map": "9.7109619,99.98247990000004",
     "photo": "https://img.adv-tour.com/photo/boat/197822.jpg",
-    "arrivalTime": "14:30",
     "priceAdult": 250,
     "priceChild": 200,
     "sellingPriceAdult": 350,
@@ -321,24 +267,18 @@
     "destinationId": 68,
     "destination": "Thongsala Pier",
     "destinationToId": 99,
-    "destinationTo": "Mae Haad Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:45 hrs."
-      }
-    ]
+    "destinationTo": "Mae Haad Pier"
   },
   {
     "productNo": "B14",
     "ref": "PNG0003",
     "productName": "Koh Phangan 07:00 - Koh Samui 07:45",
     "time": "07:00",
+    "arrivalTime": "07:45",
     "hourReserve": 1,
     "duration": "0:45 hrs.",
     "map": "9.7109619,99.98247990000004",
     "photo": "https://img.adv-tour.com/photo/boat/263456.jpg",
-    "arrivalTime": "07:45",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -354,24 +294,18 @@
     "destinationId": 68,
     "destination": "Thongsala Pier",
     "destinationToId": 87,
-    "destinationTo": "Nathon Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "0:45 hrs."
-      }
-    ]
+    "destinationTo": "Nathon Pier"
   },
   {
     "productNo": "B15",
     "ref": "PNG0004",
     "productName": "Koh Phangan 12:30 - Koh Samui 13:15",
     "time": "12:30",
-    "hourReserve": 1,
+    "arrivalTime": "13:15",
+    "hourReserve": 3,
     "duration": "0:45 hrs.",
     "map": "9.7109619,99.98247990000004",
     "photo": "https://img.adv-tour.com/photo/boat/927739.jpg",
-    "arrivalTime": "13:15",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -387,24 +321,18 @@
     "destinationId": 68,
     "destination": "Thongsala Pier",
     "destinationToId": 87,
-    "destinationTo": "Nathon Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "0:45 hrs."
-      }
-    ]
+    "destinationTo": "Nathon Pier"
   },
   {
     "productNo": "B17",
     "ref": "TAO0001",
     "productName": "Koh Tao 15:00 - Chumphon Pier 18:00",
     "time": "15:00",
+    "arrivalTime": "18:00",
     "hourReserve": 3,
     "duration": "3:0 hrs.",
     "map": "10.082857774850531,99.82352718332822",
     "photo": "https://img.adv-tour.com/photo/boat/926317.jpg",
-    "arrivalTime": "18:00",
     "priceAdult": 400,
     "priceChild": 300,
     "sellingPriceAdult": 500,
@@ -420,24 +348,18 @@
     "destinationId": 99,
     "destination": "Mae Haad Pier",
     "destinationToId": 9,
-    "destinationTo": "Matthaphon",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "3:0 hrs."
-      }
-    ]
+    "destinationTo": "Matthaphon"
   },
   {
     "productNo": "B20",
     "ref": "TAO0004",
     "productName": "Koh Tao 10:00 - Koh Phangan 12:00",
     "time": "10:00",
-    "hourReserve": 2,
+    "arrivalTime": "12:00",
+    "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "10.082857774850531,99.82352718332822",
     "photo": "https://img.adv-tour.com/photo/boat/649022.jpg",
-    "arrivalTime": "12:00",
     "priceAdult": 250,
     "priceChild": 200,
     "sellingPriceAdult": 350,
@@ -453,24 +375,18 @@
     "destinationId": 99,
     "destination": "Mae Haad Pier",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B22",
     "ref": "USM0001",
     "productName": "Koh Samui 08:00 - Donsak Pier(Laem Thuat)  09:30",
     "time": "08:00",
+    "arrivalTime": "09:30",
     "hourReserve": 3,
     "duration": "1:30 hrs.",
     "map": "9.5355552,99.93455449999999",
     "photo": "https://img.adv-tour.com/photo/boat/911589.jpg",
-    "arrivalTime": "09:30",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -486,24 +402,18 @@
     "destinationId": 87,
     "destination": "Nathon Pier",
     "destinationToId": 62,
-    "destinationTo": "Donsak Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "1:30 hrs."
-      }
-    ]
+    "destinationTo": "Donsak Pier"
   },
   {
     "productNo": "B23",
     "ref": "USM0002",
     "productName": "Koh Samui 13:30 - Donsak Pier(Laem Thuat)  15:30",
     "time": "13:30",
+    "arrivalTime": "15:30",
     "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "9.5355552,99.93455449999999",
     "photo": "https://img.adv-tour.com/photo/boat/614949.jpg",
-    "arrivalTime": "15:30",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -519,24 +429,18 @@
     "destinationId": 87,
     "destination": "Nathon Pier",
     "destinationToId": 62,
-    "destinationTo": "Donsak Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Donsak Pier"
   },
   {
     "productNo": "B25",
     "ref": "USM0004",
     "productName": "Koh Samui 11:30 - Koh Phangan 12:15",
     "time": "11:30",
-    "hourReserve": 2,
+    "arrivalTime": "12:15",
+    "hourReserve": 3,
     "duration": "0:45 hrs.",
     "map": "9.5355552,99.93455449999999",
     "photo": "https://img.adv-tour.com/photo/boat/320098.jpg",
-    "arrivalTime": "12:15",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -552,24 +456,18 @@
     "destinationId": 87,
     "destination": "Nathon Pier",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "0:45 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B26",
     "ref": "USM0005",
     "productName": "Koh Samui 18:00 - Koh Phangan 18:45",
     "time": "18:00",
+    "arrivalTime": "18:45",
     "hourReserve": 3,
     "duration": "0:45 hrs.",
     "map": "9.5355552,99.93455449999999",
     "photo": "https://img.adv-tour.com/photo/boat/935419.jpg",
-    "arrivalTime": "18:45",
     "priceAdult": 150,
     "priceChild": 100,
     "sellingPriceAdult": 200,
@@ -585,24 +483,18 @@
     "destinationId": 87,
     "destination": "Nathon Pier",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "0:45 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B27",
     "ref": "HKTPP0830",
     "productName": "Phuket 08:30 - Koh Phi Phi 10:30",
     "time": "08:30",
+    "arrivalTime": "10:30",
     "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "7.872211900000003,98.4143153",
     "photo": "https://img.adv-tour.com/photo/boat/1497353476_2.jpg",
-    "arrivalTime": "10:30",
     "priceAdult": 450,
     "priceChild": 350,
     "sellingPriceAdult": 750,
@@ -618,24 +510,18 @@
     "destinationId": 58,
     "destination": "Rassada",
     "destinationToId": 30,
-    "destinationTo": "Ton Sai Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Ton Sai Pier"
   },
   {
     "productNo": "B28",
     "ref": "HKTPP1330",
     "productName": "Phuket 13:30 - Koh Phi Phi 15:30",
     "time": "13:30",
+    "arrivalTime": "15:30",
     "hourReserve": 3,
     "duration": "2:0 hrs.",
     "map": "7.872211900000003,98.4143153",
     "photo": "https://img.adv-tour.com/photo/boat/1497354525_2.jpg",
-    "arrivalTime": "15:30",
     "priceAdult": 450,
     "priceChild": 350,
     "sellingPriceAdult": 750,
@@ -651,24 +537,18 @@
     "destinationId": 58,
     "destination": "Rassada",
     "destinationToId": 30,
-    "destinationTo": "Ton Sai Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:0 hrs."
-      }
-    ]
+    "destinationTo": "Ton Sai Pier"
   },
   {
     "productNo": "B37",
     "ref": "DONPNG01",
     "productName": "Donsak Pier(Laem Thuat) 10:00 - Koh Phangan 12:15",
     "time": "10:00",
+    "arrivalTime": "12:15",
     "hourReserve": 3,
     "duration": "2:15 hrs.",
     "map": "9.337484900000002,99.68132500000002",
     "photo": "",
-    "arrivalTime": "12:15",
     "priceAdult": 250,
     "priceChild": 200,
     "sellingPriceAdult": 300,
@@ -684,24 +564,18 @@
     "destinationId": 62,
     "destination": "Donsak Pier",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:15 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B38",
     "ref": "DONPNG02",
     "productName": "Donsak Pier(Laem Thuat) 16:30 - Koh Phangan 18:45",
     "time": "16:30",
+    "arrivalTime": "18:45",
     "hourReserve": 3,
     "duration": "2:15 hrs.",
     "map": "9.337484900000002,99.68132500000002",
     "photo": "",
-    "arrivalTime": "18:45",
     "priceAdult": 250,
     "priceChild": 200,
     "sellingPriceAdult": 300,
@@ -717,24 +591,18 @@
     "destinationId": 62,
     "destination": "Donsak Pier",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "2:15 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B39",
     "ref": "DONTAO01",
     "productName": "Donsak Pier(Laem Thuat) 10:00 - Koh Tao 14:30",
     "time": "10:00",
+    "arrivalTime": "14:30",
     "hourReserve": 3,
     "duration": "4:30 hrs.",
     "map": "9.337484900000002,99.68132500000002",
     "photo": "",
-    "arrivalTime": "14:30",
     "priceAdult": 500,
     "priceChild": 350,
     "sellingPriceAdult": 600,
@@ -750,24 +618,18 @@
     "destinationId": 62,
     "destination": "Donsak Pier",
     "destinationToId": 99,
-    "destinationTo": "Mae Haad Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "4:30 hrs."
-      }
-    ]
+    "destinationTo": "Mae Haad Pier"
   },
   {
     "productNo": "B40",
     "ref": "CPN0002",
     "productName": "Chumphon Pier 07:00 - Koh Phangan 12:00",
     "time": "07:00",
+    "arrivalTime": "12:00",
     "hourReserve": 3,
     "duration": "5:0 hrs.",
     "map": "10.445133,99.24880600000006",
     "photo": "",
-    "arrivalTime": "12:00",
     "priceAdult": 650,
     "priceChild": 500,
     "sellingPriceAdult": 800,
@@ -783,24 +645,18 @@
     "destinationId": 9,
     "destination": "Matthaphon",
     "destinationToId": 68,
-    "destinationTo": "Thongsala Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "5:0 hrs."
-      }
-    ]
+    "destinationTo": "Thongsala Pier"
   },
   {
     "productNo": "B41",
     "ref": "CPN0003",
     "productName": "Chumphon Pier 07:00 - Koh Samui 13:15",
     "time": "07:00",
+    "arrivalTime": "13:15",
     "hourReserve": 3,
     "duration": "6:15 hrs.",
     "map": "10.445133,99.24880600000006",
     "photo": "",
-    "arrivalTime": "13:15",
     "priceAdult": 750,
     "priceChild": 600,
     "sellingPriceAdult": 900,
@@ -816,24 +672,18 @@
     "destinationId": 9,
     "destination": "Matthaphon",
     "destinationToId": 87,
-    "destinationTo": "Nathon Pier",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "6:15 hrs."
-      }
-    ]
+    "destinationTo": "Nathon Pier"
   },
   {
     "productNo": "B42",
     "ref": "USM0006",
     "productName": "Koh Samui 11:30 - Chumphon Pier 18:00",
     "time": "11:30",
+    "arrivalTime": "18:00",
     "hourReserve": 3,
     "duration": "6:30 hrs.",
     "map": "9.5355552,99.93455449999999",
     "photo": "",
-    "arrivalTime": "18:00",
     "priceAdult": 800,
     "priceChild": 600,
     "sellingPriceAdult": 900,
@@ -849,24 +699,18 @@
     "destinationId": 87,
     "destination": "Nathon Pier",
     "destinationToId": 9,
-    "destinationTo": "Matthaphon",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "6:30 hrs."
-      }
-    ]
+    "destinationTo": "Matthaphon"
   },
   {
     "productNo": "B43",
     "ref": "PNG0006",
     "productName": "Koh Phangan 12:45 - Chumphon Pier 18:00",
     "time": "12:45",
-    "hourReserve": 3,
+    "arrivalTime": "18:00",
+    "hourReserve": 2,
     "duration": "5:15 hrs.",
     "map": "9.7109619,99.98247990000004",
     "photo": "",
-    "arrivalTime": "18:00",
     "priceAdult": 650,
     "priceChild": 500,
     "sellingPriceAdult": 800,
@@ -882,12 +726,6 @@
     "destinationId": 68,
     "destination": "Thongsala Pier",
     "destinationToId": 9,
-    "destinationTo": "Matthaphon",
-    "itineraryDetails": [
-      {
-        "vehicle": "Boat",
-        "travelTime": "5:15 hrs."
-      }
-    ]
+    "destinationTo": "Matthaphon"
   }
 ]

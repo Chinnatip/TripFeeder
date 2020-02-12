@@ -1,0 +1,67 @@
+{
+  "title": "Travel to Laos",
+  "about": {
+    "header": "Explore Laos with Kohlife",
+    "description": "Laos is a great country full of truly unexpected wonders. First of all, it is a splendid nature which covers the sharp hills and mountains with green rainforest. Second of all, it’s wildness and welcoming kind people. And finally, Laos is a country with a unique spirit and soul. Its beauty amazes and simplicity of life leave you speechless and make you understand what is really important in this world. Delicious Laos cuisine and mild climate are what every traveller needs."
+  },
+  "travel": {
+    "header": "How to get around Southeast Asia",
+    "detail": [
+      {
+        "header": "Train Travel in Laos",
+        "link": {
+          "title": "Laos Train",
+          "url": "/travel/laos"
+        },
+        "desc": "Nowadays, Laos trains are not the most popular way to travel around. Basically, it is only 3km of the railway line connecting Nong Khai and Vientiane but the future constructions have already been planned. Even though it is not common to take a train, it is very authentic and you won’t regret taking it in the sake of experience!"
+      },
+      {
+        "header": "Bus travel in Laos",
+        "link": {
+          "title": "Laos Bus",
+          "url": "/travel/laos"
+        },
+        "desc": "Travelling by bus is staying one of the most popular ways to travel around Laos. It is easy, cheap and quite comfortable. Plus, you can get to every destination you want simply by booking your bus trip with Kohlife.com."
+      },
+      {
+        "header": "Ferry travel in Laos ",
+        "link": {
+          "title": "Laos Ferry",
+          "url": "/travel/laos"
+        },
+        "desc": "Even though Laos is not an island destination, there is 4600 km of navigable rivers in Laos. The main river in Laos is the Mekong River where the main navigation takes place. Taking a ferry or a boat on local rivers open an opportunity to get to the most hidden places of Laos."
+      },
+      {
+        "header": "Flight travel in Laos",
+        "link": {
+          "title": "Laos Flight",
+          "url": "/travel/laos"
+        },
+        "desc": "Flights in Laos remain one of the most effective ways to move around the country. It is a cheap and safe option if you are concerned about time and money. Taking a flight in Laos means comfortable and fast journey."
+      }
+    ]
+  },
+  "popular": {
+    "header": "Thailand’s Popular Destination Countries",
+    "detail": [
+      {
+        "header": "Travel to Luang Prabang",
+        "dest_title": "Popular Luang Prabang’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Luang Prabang",
+        "desc": "Luang Prabang is the most beautiful destinations in Laos. The time here goes slow and it feels like people here simply enjoy themselves, with no rush and hustle. The town is beautiful and authentic and it is simply nice to walk around and stare at those cosy little houses. But the main thing about Luang Prabang is its nature and hills. Take a bike or a car and explore around to have the most out of Luang Prabang. To travel around use Kohlife.com and book your bus, ferry or flight around Laos."
+      },
+      {
+        "header": "Travel to Vang Vieng",
+        "dest_title": "Popular Vang Vieng’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Vang Vieng",
+        "desc": "Vang Vieng is an outstanding and absolutely gorgeous place in Laos. Its nature is breathtaking and coming to Laos is worth coming to Vang Vieng. This is simply the place to be and if you haven’t made your itinerary, Vang Vieng is an absolute must visit! If you’ve seen those tremendous pictures from Laos, most possible they are coming from Vang Vieng. There are several ways to get to Vang Vieng by bus and flight."
+      },
+      {
+        "header": "Travel to Vientiane",
+        "dest_title": "Popular Vientiane’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Vientiane",
+        "desc": "Vientiane is the capital of Laos and one of the most beautiful cities in the country. The architectural masterpieces are all around and spending a couple of days here would be a great addition to your Laos trip. Since it’s the main town in Laos, the logistics are well developed and you will be able to travel around the country by bus, flight and ferry."
+      }
+    ]
+  }
+}

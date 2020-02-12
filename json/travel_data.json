@@ -1,0 +1,73 @@
+{
+  "title": "Travel to Southeast Asia",
+  "about": {
+    "header": "Explore Southest Asia with Kohlife",
+    "description": "Introduce yourself to the endless world of emotions, cultures, delicious food and amazing nature by visiting Thailand, Cambodia, Laos, and Vietnam with Kohlife. Travel easy and cheap from one destination to another with the bus, ferry, train and flight."
+  },
+  "travel": {
+    "header": "How to get around Southeast Asia",
+    "detail": [
+      {
+        "header": "Train Travel in Southeast Asia",
+        "desc": "Choosing travelling by train in Thailand, Cambodia, Laos or Vietnam means choosing the most eco-friendly way to travel around Southeast Asia. Moreover, trains here are quiet accurate with the time and comfortable, allowing you to save some money on the accommodation when you book the overnight train. Thailand, Cambodia, Laos and Vietnam pay special attention to the railways and trains development making train trips very safe!"
+      },
+      {
+        "header": "Bus Travel in Southeast Asia",
+        "desc": "The bus is the most common, easy and cheap way to travel around Thailand, Cambodia, Laos and Vietnam. There are a lot of reliable bus companies to choose from to make your Southeast Asian trip unforgettable and full of memories!"
+      },
+      {
+        "header": "Ferry Travel in Southeast Asia",
+        "desc": "The journey from Bangkok to Suratthani is popular among travellers who want to go to islands in Thai Gulf. Surratthani is a hub of transporation in the South of Thailand. Travellers also can go to Andaman Sea side to Phuket, Krabi, Railay Beach, Ao Nang, Koh Lipe or even Khao Sok"
+      },
+      {
+        "header": "Flight Travel in Southeast Asia",
+        "desc": "The journey from Bangkok to Suratthani is popular among travellers who want to go to islands in Thai Gulf. Surratthani is a hub of transporation in the South of Thailand. Travellers also can go to Andaman Sea side to Phuket, Krabi, Railay Beach, Ao Nang, Koh Lipe or even Khao Sok"
+      }
+    ]
+  },
+  "popular": {
+    "header": "Southeast Asia’s Popular Destination Countries",
+    "detail": [
+      {
+        "header": "Travel to Thailand",
+        "dest_title": "Popular Thailand’s destinations and cities",
+        "blog_title": "Kohlife’s blog and journey about Thailand",
+        "link": {
+          "title": "Explore Thailand",
+          "url": "/travel/thailand"
+        },
+        "desc": "The journey from Bangkok to Suratthani is popular among travellers who want to go to islands in Thai Gulf. Surratthani is a hub of transporation in the South of Thailand. Travellers also can go to Andaman Sea side to Phuket, Krabi, Railay Beach, Ao Nang, Koh Lipe or even Khao Sok"
+      },
+      {
+        "header": "Travel to Cambodia",
+        "dest_title": "Popular Cambodia’s destinations and cities",
+        "blog_title": "Kohlife’s blog and journey about Cambodia",
+        "link": {
+          "title": "Explore Cambodia",
+          "url": "/travel/cambodia"
+        },
+        "desc": "Cambodia is a truly mysterious country! UNESCO wander - Angkor Wat in Siem Reap is what people choose Cambodia for! But don’t forget to visit Kampot with its unique nature, authentic capital Phnom Penh and untouched islands Koh Rong and Koh Rong Samloem!"
+      },
+      {
+        "header": "Travel to Vietnam",
+        "dest_title": "Popular Vietnam’s destinations and cities",
+        "blog_title": "Kohlife’s blog and journey about Vietnam",
+        "link": {
+          "title": "Explore Vietnam",
+          "url": "/travel/vietnam"
+        },
+        "desc": "Beautiful and authentic Vietnam is a place where you will find breathtaking untouched nature, the cleanest and uncrowded beaches and the most healthy food in the world! Vietnamese culture, nice and welcoming people, unexpected architecture and the atmosphere - that what will make you fall in love with Vietnam!"
+      },
+      {
+        "header": "Travel to Laos",
+        "dest_title": "Popular Laos’s destinations and cities",
+        "blog_title": "Kohlife’s blog and journey about Laos",
+        "link": {
+          "title": "Explore Laos",
+          "url": "/travel/laos"
+        },
+        "desc": "Laos is a landlock country with beautiful nature. Its famous for woods, waterfalls and mountains. Laos also has many Buddhist temples. The famous cities are Vientiane, Vang Vieng and the old capital Luang Prabang. If you like the nature Laos is definitely your choice of travel."
+      }
+    ]
+  }
+}

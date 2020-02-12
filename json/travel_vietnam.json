@@ -1,0 +1,67 @@
+{
+  "title": "Travel to Vietnam",
+  "about": {
+    "header": "Explore Vietnam with Kohlife",
+    "description": "If you think Vietnam is only about the beach you are only half right! Yes, Vietnam has great spots where you may have a lazy vacation by the beach of Phú Quốc, Phú Yên and Nha Trang but besides Vietnam has a lot more to offer! Its unbelievable wild beauty of nature blends well with the historic architecture and culture of local people. Vietnam makes you fall in love from the first sight and make you come back over and over again!"
+  },
+  "travel": {
+    "header": "How to get around Southeast Asia",
+    "detail": [
+      {
+        "header": "Train Travel in Vietnam",
+        "link": {
+          "title": "Vietnam Train",
+          "url": "/travel/vietnam/train"
+        },
+        "desc": "Travelling by train in Vietnam is a truly authentic and unforgettable experience for every traveller! If you have time and you want to feel the real atmosphere of Vietnam, enjoy the changing nature outside your train window, then this train trip is something you can’t miss! Plus the sleeping bed is a great advantage if you want to take a rest before exploring the new destination!"
+      },
+      {
+        "header": "Bus travel in Vietnam",
+        "link": {
+          "title": "Vietnam Bus",
+          "url": "/travel/vietnam/bus"
+        },
+        "desc": "If you are going to Vietnam or already here, the easiest and cheapest way to move around and see as many places as you can is travelling by bus. The bus booked on Kohlife.com will take you anywhere you want around Vietnam and outside the country if you decide to expand your horizons."
+      },
+      {
+        "header": "Ferry travel in Vietnam",
+        "link": {
+          "title": "Vietnam Ferry",
+          "url": "/travel/vietnam/ferry"
+        },
+        "desc": "Since there are many island destinations in Vietnam one of the most popular ways to travel around is by ferry. We chose the most reliable ferry companies to provide the best service for our travellers. You may simply click and choose the option which fits your expectations and needs. Any choice you’ll make will be the right one!"
+      },
+      {
+        "header": "Flight travel in Vietnam",
+        "link": {
+          "title": "Vietnam Flight",
+          "url": "/travel/vietnam/flight"
+        },
+        "desc": "Since there are many low-cost flight companies in Southeast Asia, it is very cheap and reliable to fly around Vietnam. Plus, besides the obvious economic advantage, you’ll save time which is precious!"
+      }
+    ]
+  },
+  "popular": {
+    "header": "Vietnam’s Popular Destination Countries",
+    "detail": [
+      {
+        "header": "Travel to Ho Chi Minh",
+        "dest_title": "Popular Ho Chi Minh’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Ho Chi Minh",
+        "desc": "Ho Chi Ming is one of the busiest cities in Vietnam. Its energy will inspire you for more achievements. Ho Chi Ming is a place where you will definitely find something to do from sightseeing and shopping to fun nightlife. You may get to Ho Chi Minh by bus, train and flight depending where you coming from and what are your travel expectations!"
+      },
+      {
+        "header": "Travel to Halong",
+        "dest_title": "Popular Halong’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Halong",
+        "desc": "Halong Bay is truly a wonder of Vietnam. An unforgettable trip around the islands which are covered with green and pop out from the crystal clear emerald water is something worth to see! Moreover, Halong Bay is a famous spot for kayaking, snorkelling and scuba diving! Thrilling! There are several ways to get to see Halong Bay. You may book a flight, bus or train on Kohlife.com and enjoy the trip that will leave you speechless."
+      },
+      {
+        "header": "Travel to Hanoi",
+        "dest_title": "Popular Hanoi’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Hanoi",
+        "desc": "Capital of Vietnam - gorgeous Hanoi! When arriving here, you won’t believe your eyes that it’s real and it’s all happening in Vietnam. Gothic architecture, cosy little houses that inherited French culture and fresh air. That is wonderful Hanoi. Visiting here, don’t forget to try famous beef soup and coffee with the egg yolk! Being the capital of Vietnam, Hanoi is very developed in terms of logistics. So you may choose any way: train, bus or a flight to move around!"
+      }
+    ]
+  }
+}

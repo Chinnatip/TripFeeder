@@ -1,9 +1,10 @@
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -34,20 +35,22 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var csv = require("csv-parser");
 var knex = require("../db/knex");
 //
-var filePath = "csv/songserm_combo.csv";
+var filePath = "csv/songserm_fix_29jan2020.csv";
 function findAndUpdateRoute(id, productNumber, ref) {
     return __awaiter(this, void 0, void 0, function () {
         var res, error_1;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    _a.trys.push([0, 3, , 4]);
+                    console.log(id, productNumber, ref);
+                    _a.label = 1;
+                case 1:
+                    _a.trys.push([1, 4, , 5]);
                     // update data
                     return [4 /*yield*/, knex('transport_routes')
                             .where({ id: id })
@@ -58,21 +61,21 @@ function findAndUpdateRoute(id, productNumber, ref) {
                         })
                         // Log result
                     ];
-                case 1:
+                case 2:
                     // update data
                     _a.sent();
                     return [4 /*yield*/, knex('transport_routes')
                             .where({ id: id })
                             .first()
                             .select('id', 'operator_key', 'operator_ref_id', 'name', 'company_id', 'default_price', 'net_price', 'suggest_price', 'booking_engine')];
-                case 2:
+                case 3:
                     res = _a.sent();
                     return [2 /*return*/, res];
-                case 3:
+                case 4:
                     error_1 = _a.sent();
                     console.log('err >>>', error_1);
                     throw new error_1();
-                case 4: return [2 /*return*/];
+                case 5: return [2 /*return*/];
             }
         });
     });
@@ -80,12 +83,12 @@ function findAndUpdateRoute(id, productNumber, ref) {
 //
 fs.createReadStream(filePath)
     .pipe(csv())
-    .on('data', function (row) { return __awaiter(_this, void 0, void 0, function () {
+    .on('data', function (row) { return __awaiter(void 0, void 0, void 0, function () {
     var id, productNumber, ref, route;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                id = row.koh_route_id, productNumber = row.productNo, ref = row.ref;
+                id = row.kohRouteId, productNumber = row.productNo, ref = row.ref;
                 return [4 /*yield*/, findAndUpdateRoute(id, productNumber, ref)];
             case 1:
                 route = _a.sent();

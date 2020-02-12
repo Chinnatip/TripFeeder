@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -p . && node dist/app",
+    "convert_travel_route": "json2csv -i ./json/travel_route.json -f path,id,pureUrl,checkRoute -o ./csv/travel_route.csv",
     "12go": "tsc -p . && node dist/12go ",
     "convert_12go": "json2csv -i ./json/12go.json -f priority,changefreq,lastmod,loc -o ./csv/12go.csv",
     "book": "tsc -p . && node dist/book_away ",
@@ -17,7 +18,16 @@
     "process_sonserm_boat": "yarn songserm_boat && yarn convert_songserm_boat",
     "process_sonserm_combo": "yarn songserm_combo && yarn convert_songserm_combo",
     "update": "tsc -p . && NODE_ENV=development node dist/updateRoute",
-    "update_prod": "tsc -p . && NODE_ENV=production node dist/updateRoute"
+    "update_prod": "tsc -p . && NODE_ENV=production node dist/updateRoute",
+    "travel_destination": "tsc -p . && node dist/kohlife_travel_destination",
+    "extract": "tsc -p . && node dist/extract_csv",
+    "prepare_zip": "tsc -p . && NODE_ENV=production && node dist/prep_zip",
+    "sheet_new": "tsc -p . && node dist/google_sheet_new",
+    "sheet_read": "tsc -p . && node dist/sheet_read",
+    "sheet_write": "tsc -p . && node dist/sheet_write",
+    "koh_sheet_read": "tsc -p . && node dist/kohcloud_sheet_read",
+    "koh_booking_read": "tsc -p . && node dist/kohcloud_booking_list",
+    "vichien": "tsc -p . && node dist/vichien"
   },
   "keywords": [
     "node",
@@ -28,13 +38,20 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.7.3",
+    "async": "^3.1.0",
     "axios": "^0.19.0",
     "csv-parser": "^2.3.0",
     "dotenv": "^8.1.0",
     "dotenv-flow": "^3.1.0",
+    "file-saver": "^2.0.2",
+    "fs": "^0.0.1-security",
+    "google-spreadsheet": "^2.0.8",
+    "googleapis": "39",
     "json2csv": "^4.5.2",
+    "jszip": "^3.2.2",
     "knex": "^0.19.3",
     "pg": "^7.12.1",
+    "save-file": "^2.3.1",
     "util": "^0.12.1",
     "xml-js": "^1.6.11"
   }

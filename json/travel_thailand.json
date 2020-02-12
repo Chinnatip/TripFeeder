@@ -1,0 +1,157 @@
+{
+  "title": "Travel to Thailand",
+  "about": {
+    "header": "Explore Thailand with Kohlife",
+    "description": "Thailand is the most desired, most exciting and most delicious vacation destination in the world. From the first minute when you enter the country, you feel how warm and welcoming people are here. Nature of Thailand will take your breath away, leaving you both speechless and then turning you into a storyteller. If you are looking for inspiration, warm ocean, mild tan, most beautiful islands and fresh fruits - Thailand is the best choice for you! "
+  },
+  "travel": {
+    "header": "How to get around Southeast Asia",
+    "detail": [
+      {
+        "header": "Train Travel in Thailand",
+        "link": {
+          "title": "Thailand Train",
+          "url": "/travel/thailand/train"
+        },
+        "desc": "Choosing train as your travelling option in Thailand, you choose the most exotic and authentic way to move around the country. That way you will be able to see the changing landscape out of your window and take a rest before you ready to explore again. Nowadays, Thailand has super innovative trains with all the modern and comfortable amenities for the best memories from your train trip! "
+      },
+      {
+        "header": "Bus travel in Thailand ",
+        "link": {
+          "title": "Thailand Bus",
+          "url": "/travel/thailand/bus"
+        },
+        "desc": "Once you are in Thailand, the easiest and cheapest way to move around is certainly a bus. You may literally find any route and explore as many destinations as you want. From Northern Thailand to Southern, from one town to another with comfort, AC and even WiFi!"
+      },
+      {
+        "header": "Ferry travel in Thailand ",
+        "link": {
+          "title": "Thailand Ferry",
+          "url": "/travel/thailand/ferry"
+        },
+        "desc": "You’ve already seen those beautiful pictures of Thailand’s islands with calm warm ocean and white sand beaches. If you chose the beach vacation in Thailand then your way to travel around is ferry! It is a fun and exciting way to explore many places and spend a little time tanning on the ferry roof or enjoy the view from the AC room. Moreover, travelling by ferry is considered to be the safest way to travel! "
+      },
+      {
+        "header": "Flight travel in Thailand",
+        "link": {
+          "title": "Thailand Flight",
+          "url": "/travel/thailand/flight"
+        },
+        "desc": "Booking a flight in Thailand means you save a lot of time, money and gain precious hours to explore. Since the distances between the major towns in Thailand are short, you would spend a maximum of 2 hours in the air in very rare cases. Otherwise, enjoy a refreshing flight and go check out what’s more there!"
+      }
+    ]
+  },
+  "popular": {
+    "header": "Thailand’s Popular Destination Countries",
+    "detail": [
+      {
+        "header": "Travel to Bangkok",
+        "dest_title": "Popular Bangkok’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Bangkok",
+        "desc": "Thailand’s capital Bangkok is a city where you may find both fun and inspiration. If you enjoy clubs, rooftop bars, shopping and sightseeing, you’ll love Bangkok and hardly would like to leave this place. But despite being famous for crazy parties, Bangkok is an important spiritual and religious centre of Thailand where you can spend some mindful time thinking and meditating. You may travel by train, bus and flight to Bangkok depending on where you come from!",
+        "deatination": [
+          {
+            "name": "Hualampong Train Station",
+            "key": "hualampong-train-station"
+          },
+          { "name": "Khao San Rd.", "key": "khao-san-rd" },
+          {
+            "name": "Sukhumvit (Prasarnmitr Plaza Koh Travel)",
+            "key": "sukhumvit-kohtravel"
+          },
+          {
+            "name": "Lomprayah Khaosan Road",
+            "key": "khao-san-road-(lomprayah)"
+          },
+          {
+            "name": "Bangkok Bus Stop (Giant Ibis)",
+            "key": "bangkok-bus-stop--(giant-ibis)"
+          },
+          {
+            "name": "Mo Chit Bus Terminal (Songserm)",
+            "key": "mo-chit-bus-terminal"
+          },
+          {
+            "name": "Southern Bus Terminal (Songserm)",
+            "key": "southern-bus-terminal"
+          }
+        ]
+      },
+      {
+        "header": "Travel to Phuket",
+        "dest_title": "Popular Phuket’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Phuket",
+        "desc": "Phuket is the most visited destination in Thailand and it has its reasons! Phuket is the island that has it all: nightlife, amazing nature, beautiful ocean, cultural and religious places and many small wonders to explore. Since there is an airport in Phuket, you can book a flight to Phuket, also take a ferry or a bus. All those ways are comfortable, depending on your personal preferences.",
+        "deatination": [
+          { "name": "Patong Bus Stop", "key": "patong_bus_stop" },
+          {
+            "name": "Jungceylon Shopping Mall",
+            "key": "phuket_bus_stop_patong"
+          },
+          { "name": "Phuket Bus Terminal 2", "key": "phuket_bus_terminal_2" },
+          { "name": "Kata Fin Hostel", "key": "kata_fin_hostel" },
+          {
+            "name": "Rassada Pier (Phi Phi Cruiser)",
+            "key": "rassada_pier_phi_phi_cruiser"
+          },
+          {
+            "name": "Phuket Bus Stop (Lomprayah)",
+            "key": "phuket_bus_stop_(lomprayah)"
+          },
+          {
+            "name": "Patong Surf House, Patong (Nopparat)",
+            "key": "patong_surf_house_(nopparat)"
+          },
+          {
+            "name": "Karon Doolay Hostel (Nopparat)",
+            "key": "karon_doolay_hostel_(nopparat)"
+          },
+          {
+            "name": "Phuket Airport (Chaokoh Krabi)",
+            "key": "phuket_airport_(chaokoh)"
+          },
+          {
+            "name": "Kata Fin Hostel (Nopparat)",
+            "key": "kata_fin_hostel_(nopparat)"
+          },
+          { "name": "Bang Rong Pier", "key": "bang_rong_pier" }
+        ]
+      },
+      {
+        "header": "Travel to Krabi",
+        "dest_title": "Popular Krabi’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Krabi",
+        "desc": "Have you seen the pictures of those rocky hills popping out here and there in the perfectly turquoise water? If so, then you have seen Krabi. One of the most beautiful provinces in Thailand with many beautiful places to go: Krabi Town, Ao Nang, Railay and more. You may fly to Krabi airport and then book a bus or a ferry to see all the wonders Krabi has to offer.",
+        "deatination": [
+          { "name": "Krabi Town", "key": "krabi_town" },
+          {
+            "name": "Klong Jilad Pier (Chaokoh)",
+            "key": "krabi_klong_jilad_pier_(chaokoh)"
+          },
+          { "name": "Chaokoh Krabi Office", "key": "chaokoh_office_krabi" },
+          { "name": "Hatyai World Krabi", "key": "hatyai_world_krabi" },
+          {
+            "name": "Krabi Bus Stop (Lomprayah)",
+            "key": "krabi_bus_stop_(lomprayah)"
+          },
+          {
+            "name": "Klong Muang Beach (Ao Nang Travel)",
+            "key": "klong_muang_beach_(ao_nang_travel_and_tour)"
+          },
+          {
+            "name": "Tubkaek Beach (Ao Nang Travel)",
+            "key": "tubkaek_beach_(ao_nang_travel_and_tour)"
+          },
+          {
+            "name": "Krabi Bus Stop (Seatran Discovery)",
+            "key": "krabi__bus_stop_(seatran_discovery)"
+          },
+          {
+            "name": "Pak-Up Hostel Krabi (Songserm)",
+            "key": "pak-up_hostel_krabi_(songserm)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2,8 +2,10 @@ import axios from 'axios'
 import * as fs from 'fs'
 
 // Setup ProductUrl and AppKey
-const productURL = `https://sb.api.adv-tour.com/v1`
-const appKey = `44bf66fh896355a`
+// const productURL = `https://sb.api.adv-tour.com/v1`
+// const appKey = `44bf66fh896355a`
+const productURL = `https://api.adv-tour.com/v1`
+const appKey = `59bf6f896355a`
 const suffixKey = process.env.suffix
 const writeFile = process.env.path
 

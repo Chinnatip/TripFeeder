@@ -1,0 +1,885 @@
+[
+  {
+    "url": "www.kohlife.com/travel/thailand/train",
+    "title": "Travelling by train in Thailand",
+    "text": [
+      "If you don’t like planes and prefer to rather stretch your body, while watching some movies on your way to the other part of the country, eating snacks that you’ve prepared for yourself in advance, then a train is what you have to choose in Thailand!",
+      "Thailand trains are amazing! Thai railways are constantly improving, for example, in 2017, the Bangkok - Chiang Mai line was fixed and new rails, trackbeds, and ties are there now!",
+      "Moreover, Thai people are seriously concerned about the environment recently which made them rethink the transport system as well. That’s why the new trains in Thailand replaced standalone diesel-electric engine trains with powered cars. Moreover, the new trains are fully adapted for people with disabilities. You will feel more safe with the security cameras which every car is equipped with."
+    ],
+    "mapkey": "thailand_train",
+    "popular_route": [
+      {
+        "id": 2622,
+        "name": "Bangkok - Chiangmai",
+        "price": 339,
+        "itinerary": ["train"],
+        "link": "https://www.kohlife.com/transport/bangkok/chiangmai"
+      },
+      {
+        "id": 2633,
+        "name": "Chiangmai - Bangkok",
+        "price": 1051,
+        "itinerary": ["train"],
+        "link": "https://www.kohlife.com/transport/chiangmai/bangkok"
+      }
+    ],
+    "operator": [
+      {
+        "name": "SRT",
+        "key": "srt",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-srt.png"
+      }
+    ]
+  },
+  {
+    "url": "www.kohlife.com/travel/thailand/bus",
+    "title": "Travelling by bus in Thailand",
+    "text": [
+      "Travelling by bus became a widespread way to move around in many European countries, in the USA, Australia. Thailand is not an exception. There is no place you can’t get by bus except only the islands.",
+      "The competition among the bus companies in Thailand drives the services up! Every year you see more and more modern luxury buses with Wifi, AC, sleeping chairs and even little tablets inserted in the seat in front of you. The only thing you have to do is to choose the company you trust and feel safe with!",
+      "You’ll also notice that the bus is the cheapest way to move around. But note that cheap tickets don’t mean the bad quality of the service if you know where to look up your tickets in Thailand.",
+      "Kohlife as an online service has insurance (!) which is crucial when travelling! Besides it provides 24/7 support in case you got lost or can’t find your vehicle or bus stop.",
+      "The greatest thing about booking your bus online is that you don’t have to carry the paper ticket. It is accessible anytime on your smartphone through email, even if you are not connected to the Internet."
+    ],
+    "mapkey": "thailand_bus",
+    "popular_route": [
+      {
+        "id": 790,
+        "name": "Krabi - Surat Thani",
+        "price": 225,
+        "itinerary": ["bus"],
+        "link": "https://www.kohlife.com/transport/krabi/suratthani"
+      },
+      {
+        "id": 334,
+        "name": "Koh Samui - Surat Thani",
+        "price": 300,
+        "itinerary": ["bus", "ferry"],
+        "link": "https://www.kohlife.com/transport/koh-samui/suratthani"
+      },
+      {
+        "id": 4293,
+        "name": "Suratthani - Krabi",
+        "price": 320,
+        "itinerary": ["bus"],
+        "link": "https://www.kohlife.com/transport/suratthani/krabi"
+      }
+    ],
+    "review": [
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Maciej Zmijewski",
+        "user_nation": "PL",
+        "created_at": "2019-08-09 17:52:25 +0700",
+        "title": "Fast and no problem ",
+        "message": "Very good quality transport. No problem witch check in, fast bus with a/c, and very fast boat 😁 It's very OK 🥰"
+      },
+      {
+        "company": "Songserm",
+        "votes": 7,
+        "user_name": "Edson  Brigitta",
+        "user_nation": "NL",
+        "created_at": "2019-07-05 14:32:37 +0700",
+        "title": "Good",
+        "message": "We were on time that was nice"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 9,
+        "user_name": "Nick Turner",
+        "user_nation": "GB",
+        "created_at": "2019-05-27 19:23:17 +0700",
+        "title": "Very good service",
+        "message": "Coach was on time and well air conditioned, staff were very friendly and helpful. Driver got us to the pier in about 3 and a half hours."
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Himanshu Mr",
+        "user_nation": "IN",
+        "created_at": "2019-04-19 21:10:46 +0700",
+        "title": "Excellent ",
+        "message": "I was travelling for the first time and was nervous because of various reasons. Mr Murali who guided me all through and taken prompt actions to my various queries. It was a lovely trip.\r\n\r\n"
+      },
+      {
+        "company": "NP Tour",
+        "votes": 6,
+        "user_name": "Rahul Suri",
+        "user_nation": "IN",
+        "created_at": "2019-05-06 19:00:59 +0700",
+        "title": "Can do if you are on a budget",
+        "message": "This was the cheapest price I could find anywhere, so if you are on a budget. Don't think, just book it.\r\n\r\nThe driver called in advance (in the morning to check and confirm).\r\n\r\nDriver arrived almost 45 mins. late as per the scheduled time provided, which resulted in delay in reaching the final destination.\r\n\r\nHe made first stop at some gas station outside Patong, where we were asked to change in another bus, which already had few more passengers.\r\n\r\nThe condition of the bus was ok, with A/C barely working and some broken panels.\r\n\r\nSeats were ok for the trip duration. \r\n\r\nAnd right before we reached Krabi, he stopped again at an agency office where they asked for our details on our trip duration, etc. And then did some further up-selling of tours, transfers, etc.\r\n\r\nSo finally as I said, if you are on a budget go for it."
+      },
+      {
+        "company": "Songserm",
+        "votes": 8,
+        "user_name": "Laura Ponjee",
+        "user_nation": "NL",
+        "created_at": "2019-03-21 21:38:53 +0700",
+        "title": "Trip from krabi to koh phangnan ",
+        "message": "Everything went very well the only thing was that we had to be at the busstop very early and waited for 2 hours. While people who arrived later for diffrent locations got to go on the bus before us."
+      },
+      {
+        "company": "Songserm",
+        "votes": 10,
+        "user_name": "Sunny Nihalani",
+        "user_nation": "TH",
+        "created_at": "2019-03-14 14:14:53 +0700",
+        "title": "Trip Experience",
+        "message": "Awesome Trip"
+      },
+      {
+        "company": "KOH Travel",
+        "votes": 10,
+        "user_name": "Deanna Wilhelm",
+        "user_nation": "GB",
+        "created_at": "2019-03-17 11:56:16 +0700",
+        "title": "Great service!",
+        "message": "Got picked up at the right time, aircon on bus, a bit cramped but you’ve got to get from A-B somehow!  Helpful, dropped me back to where I needed "
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 8,
+        "user_name": "Naruki Kajimoto",
+        "user_nation": "JP",
+        "created_at": "2019-02-18 20:16:22 +0700",
+        "title": "Good",
+        "message": "Everything was good"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Mikael Karlin",
+        "user_nation": "SE",
+        "created_at": "2019-02-18 17:46:43 +0700",
+        "title": "Everything well organized",
+        "message": "I like to travel with a company like this - because it works!! \r\nGood information also"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 7,
+        "user_name": "Ayelet Shamgar",
+        "user_nation": "IL",
+        "created_at": "2019-02-19 22:34:42 +0700",
+        "title": "Check in point",
+        "message": "Hello\r\nThe trip was really good and very organized.\r\nHowever the chekin point was really far from the pier we didnt know were it is. \r\nYou should wright on the mail the exact place so we will get there with the heavy bags and not to the Pierre."
+      },
+      {
+        "company": "KOH Travel",
+        "votes": 10,
+        "user_name": "Jamilur Bhuiyan",
+        "user_nation": "GB",
+        "created_at": "2019-02-17 10:16:57 +0700",
+        "title": "Great!",
+        "message": "It was flawless no complications"
+      },
+      {
+        "company": "Songserm",
+        "votes": 7,
+        "user_name": "Mikael Karlin",
+        "user_nation": "SE",
+        "created_at": "2019-02-15 22:00:10 +0700",
+        "title": "Everything worked",
+        "message": "Everything just worked\r\nThe bus was not very fresh but ok\r\n\r\nDont understand why you call itvan eticket, when you require customers to print ticket\r\n\r\nIts complicated to print when you are on a small island"
+      },
+      {
+        "company": "Phantip Travel",
+        "votes": 8,
+        "user_name": "Saurabh Maan",
+        "user_nation": "TH",
+        "created_at": "2019-02-08 08:41:56 +0700",
+        "title": "Cancelled",
+        "message": "Actually hired taxi for our destination so bookinh will be cancelled requested for refund"
+      },
+      {
+        "company": "Boonsiri",
+        "votes": 8,
+        "user_name": "Lars Mueller-marienburg",
+        "user_nation": "AT",
+        "created_at": "2018-12-30 00:21:54 +0700",
+        "title": "Decent perforance",
+        "message": "Trip took one hour longer than announced because we had to change boats in Koh Kut. \r\nThe rest was smooth and easy."
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 9,
+        "user_name": "Natalie  Cunningham ",
+        "user_nation": "GB",
+        "created_at": "2019-01-26 11:43:06 +0700",
+        "title": "Decent journey! ",
+        "message": "Ticket arrived immediately, ferry was straight forward. Coach very comfortable and arrived on time. Quite organised considering the amount of people there were!"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Tina Davies",
+        "user_nation": "GB",
+        "created_at": "2019-01-15 14:49:40 +0700",
+        "title": "Good",
+        "message": "Everything ran according to our itinerary good service"
+      },
+      {
+        "company": "NP Tour",
+        "votes": 7,
+        "user_name": "Mirko Gosgnach",
+        "user_nation": "IT",
+        "created_at": "2019-01-21 20:27:07 +0700",
+        "title": "A nice adventure ",
+        "message": "I guess we can sum up our trip as adventurous. The minivan was a little late to start and we then went to pick up a few more people which was ok. When we finally started to go and we were making pretty good time. We suddenly stopped at a gas station to change vans. People that were going to Krabi in one and people going to Aonang in the other.  Ok didn’t expect this but whatever.  They made us stop for a bathroom break along the way which was good. \r\nWhen we almost reached destination we suddenly stopped again in a parking area where we all had do get off once again and report what hotel we were staying at. Then some people changed minivans again. Fortunately we didn’t have to. \r\nAt the end of it all we finally arrived to our hotel safe and sound. Overall the experience was good and got to see a little bit of the country side of Thailand. "
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 6,
+        "user_name": "John Halstead",
+        "user_nation": "NZ",
+        "created_at": "2018-11-16 10:48:06 +0700",
+        "title": "Efficient but disgusting toilet on bus",
+        "message": "All good apart from absolutely filthy and disgusting toilet on No2 bus going to Krabi.\r\nDoor did not close from inside"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Jonathan Selhore",
+        "user_nation": "IN",
+        "created_at": "2019-01-01 13:36:32 +0700",
+        "title": "Lanta to Samui to Krabi",
+        "message": "Convenient, safe and reliable."
+      },
+      {
+        "company": "Thai Sriram",
+        "votes": 8,
+        "user_name": "Vadim Eremeev",
+        "user_nation": "RU",
+        "created_at": "2018-12-22 20:30:37 +0700",
+        "title": "Convenient bus but horrible organization ",
+        "message": "In general trip was good. Just few things which made trip feel bad: \r\n- voucher is not a ticket. so you need to arrive 1 hour before to KhaoSan and stay in queue to be able exchange it to real ticket. \r\n- real ticket has no seat on it. So you gonna be fighting with 40 other people to get in the bus first and get your seat\r\n- the bus company staff seems giving priority to thai people. So as a farang you have to wait before thai are boarded into bus and then they let you go in. \r\n"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 6,
+        "user_name": "Ahmed Azmy",
+        "user_nation": "EG",
+        "created_at": "2018-12-08 18:46:58 +0700",
+        "title": "Be aware of the ferry",
+        "message": "It was on time everything was perfect but the lomprayah ferry was moving so fast and it actually broke down for a bit in the middle of the sea.   Everyone on board was vomiting. \r\n\r\n But everything else was very well organized and on time."
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Saif Rangwala",
+        "user_nation": "IN",
+        "created_at": "2018-11-14 01:57:11 +0700",
+        "title": "good",
+        "message": "good"
+      },
+      {
+        "company": "Thai Sriram",
+        "votes": 9,
+        "user_name": "Yuldashev Bekzod",
+        "user_nation": "UZ",
+        "created_at": "2018-12-15 11:15:44 +0700",
+        "title": "Wonderful! ",
+        "message": "I had night bus. It was amazing! They gave me free cookie and a bottle of water. The driver rode the bus nice and slowly: not rush. Even they gave us free meal. Even inside the bus was so silent. \r\nI definitely recommend this company! "
+      },
+      {
+        "company": "NP Tour",
+        "votes": 6,
+        "user_name": "Sophie Runnicles",
+        "user_nation": "GB",
+        "created_at": "2018-12-12 14:45:18 +0700",
+        "title": "Tiring!",
+        "message": "The minibus was good, he stopped for us to have a bathroom break. But we then arrived somewhere (Suratthani) where we had to swap busses. However we had to wait for almost 2 hours to get on the bus. We were told there was no food on the boat or pier so we had to eat there (we didn’t get to stop for lunch) turns out it’s just a way to make more money because there was food at the pier and on the boat! We were due to arrive in Samui at 5pm but didn’t arrive until 7pm. A bit of a shambles but we arrived safely after a 12 hour journey from Phuket."
+      }
+    ],
+    "operator": [
+      {
+        "name": "Giantbis",
+        "key": "giantbis",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130095/koh-op/logo_giantibis.png"
+      },
+      {
+        "name": "Thai Sriram",
+        "key": "thai-sriram",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130097/koh-op/logo_thaisriram.png"
+      },
+      {
+        "name": "Boonsiri",
+        "key": "boonsiri",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130094/koh-op/logo_boonsiri.png"
+      },
+      {
+        "name": "Lomprayah",
+        "key": "lomprayah",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130096/koh-op/logo_lomprayah.png"
+      },
+      {
+        "name": "Seatran Discovery",
+        "key": "seatran-discovery",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-seatran-discovery.png"
+      },
+      {
+        "name": "Songserm",
+        "key": "songserm",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-songserm.png"
+      },
+      {
+        "name": "Phantip Travel",
+        "key": "phantip-travel",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-phantip-travel.png"
+      },
+      {
+        "name": "Ao Nang Travel and Tour",
+        "key": "ao-nang-travel",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130095/koh-op/logo_aonangprincess.png"
+      },
+      {
+        "name": "Raja Ferry",
+        "key": "raja-ferry",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-raja-ferry.png"
+      },
+      {
+        "name": "KOH Travel",
+        "key": "koh-travel",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-koh-travel.png"
+      },
+      {
+        "name": "Chaokoh Krabi",
+        "key": "chaokoh-krabi",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-chaokoh-krabi.png"
+      },
+      {
+        "name": "Naga Travel",
+        "key": "naga-travel",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1511087029/logo_naga_travel_mxhufg.png"
+      },
+      {
+        "name": "NP Tour",
+        "key": "nopparat",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-np-tour.png"
+      },
+      {
+        "name": "Travelmart",
+        "key": "travelmart",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-travelmart.png"
+      },
+      {
+        "name": "Phantip Travel Phuket",
+        "key": "phantip-travel-phuket",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-phantip-travel-phuket.png"
+      },
+      {
+        "name": "Seatran Ferry",
+        "key": "seatran-ferry",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-seatran-ferry.png"
+      }
+    ]
+  },
+  {
+    "url": "www.kohlife.com/travel/thailand/ferry",
+    "title": "Travelling by ferry in Thailand",
+    "text": [
+      "Ferry in Thailand is the only way to get to your island destination unless you use a helicopter or swim across. That’s why there is a huge variety of water vehicles to choose from in Thailand: ferry, speed boat, high-speed catamaran, long-tailed boats, express boats. It all depends on your preferences and timing because some of them are much faster than the others, more comfortable and have different levels of service.",
+      "The story with Titanic is far away and nowadays water transport is considered the safest in the world according to BBC. Thai water transport companies are constantly improving their services including more and more modern features like an open top deck with comfortable seats, fully equipped snack bar, conditioned salons, professional crew that performs a high level of services and new and fast vehicles!",
+      "If you are planning the beach vacation in Thailand or if you want to do the island hopping - ferry is something you will come across very often! Any ferry you’ll choose on Kohlife will be the right choice since we inspect each company before partnership!"
+    ],
+    "mapkey": "thailand_ferry",
+    "popular_route": [
+      {
+        "id": 2357,
+        "name": "Donsak - Koh Samui",
+        "price": 165,
+        "itinerary": ["ferry"],
+        "link": "https://www.kohlife.com/transport/donsak/koh-samui"
+      },
+      {
+        "id": 2373,
+        "name": "Koh Samui - Donsak",
+        "price": 165,
+        "itinerary": ["ferry"],
+        "link": "https://www.kohlife.com/transport/koh-samui/donsak"
+      },
+      {
+        "id": 2373,
+        "name": "Koh Samui - Koh Phangan",
+        "price": 175,
+        "itinerary": ["ferry"],
+        "link": "https://www.kohlife.com/transport/koh-samui/koh-phangan"
+      }
+    ],
+    "review": [
+      {
+        "company": "Chaokoh",
+        "votes": 6,
+        "user_name": "Prathul Kumar",
+        "user_nation": "IN",
+        "created_at": "2019-08-10 16:48:02 +0700",
+        "title": "Delayed Trip",
+        "message": "We had a late departure from Rassada Pier as the sea was rough we reached late to Phi Phi where we had just 40mins to come back as our trip was fpr 2hrs."
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Maciej Zmijewski",
+        "user_nation": "PL",
+        "created_at": "2019-08-09 17:52:25 +0700",
+        "title": "Fast and no problem ",
+        "message": "Very good quality transport. No problem witch check in, fast bus with a/c, and very fast boat 😁 It's very OK 🥰"
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Rachel Shieff",
+        "user_nation": "GB",
+        "created_at": "2019-07-07 13:47:05 +0700",
+        "title": "Ferry to Phuket",
+        "message": "Wonderful journey on the Upper deck enjoying the great view and breeze. "
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 6,
+        "user_name": "Peter Dekker",
+        "user_nation": "NL",
+        "created_at": "2019-06-09 17:30:33 +0700",
+        "title": "P",
+        "message": "Fair but not customer friendly"
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Rachel Shieff",
+        "user_nation": "GB",
+        "created_at": "2019-07-07 13:47:06 +0700",
+        "title": "Ferry to Phi Phi",
+        "message": "Boat was great. The sea was very rough due to stormy weather, but the Captain did a very good job of avoiding the big swells. Very safe trip. "
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 7,
+        "user_name": "Lisa Warmerdam",
+        "user_nation": "NL",
+        "created_at": "2019-07-01 22:53:38 +0700",
+        "title": "Calm trip",
+        "message": "Nice experience. Good facilities on board of the ferry. The only disappointment was that the journey took an hour longer than indicated. "
+      },
+      {
+        "company": "Songserm",
+        "votes": 7,
+        "user_name": "Edson  Brigitta",
+        "user_nation": "NL",
+        "created_at": "2019-07-05 14:32:37 +0700",
+        "title": "Good",
+        "message": "We were on time that was nice"
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Edward Belsham",
+        "user_nation": "CA",
+        "created_at": "2019-07-02 09:41:21 +0700",
+        "title": "Amazing resort ",
+        "message": "Phi phi is not only beautiful but is also filled with many activities. Paradise resort with their ocean front bungalows are amazing. "
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Hazzel Madzonza",
+        "user_nation": "TH",
+        "created_at": "2019-06-13 01:45:44 +0700",
+        "title": "Lovely people",
+        "message": "Lovely trip and workers. We were running a bit late as our bags had not arrived from the hotel. They were really understanding and waited for us. Lovely people. "
+      },
+      {
+        "company": "Phi Phi Cruiser",
+        "votes": 9,
+        "user_name": "Jack Macaulay",
+        "user_nation": "GB",
+        "created_at": "2019-06-08 14:42:03 +0700",
+        "title": "No problems ",
+        "message": "Reasonable price, prompt pick up from hotel. Good service "
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 9,
+        "user_name": "Nick Turner",
+        "user_nation": "GB",
+        "created_at": "2019-05-27 19:23:17 +0700",
+        "title": "Very good service",
+        "message": "Coach was on time and well air conditioned, staff were very friendly and helpful. Driver got us to the pier in about 3 and a half hours."
+      },
+      {
+        "company": "Phi Phi Cruiser",
+        "votes": 10,
+        "user_name": "Himanshu Mr",
+        "user_nation": "IN",
+        "created_at": "2019-05-16 18:57:40 +0700",
+        "title": "Excellent ",
+        "message": "Very nice "
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Himanshu Mr",
+        "user_nation": "IN",
+        "created_at": "2019-05-16 19:06:04 +0700",
+        "title": "Excellent ",
+        "message": "The trip was nice! Mr Murali has helped me a lot and guided me all through the booking. It was pleasure to connect with him!! "
+      },
+      {
+        "company": "Phi Phi Cruiser",
+        "votes": 10,
+        "user_name": "Harprit singh Bhari",
+        "user_nation": "IN",
+        "created_at": "2019-05-14 09:26:31 +0700",
+        "title": "Review",
+        "message": "Thank you to team Kohlife for their valuable support "
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Himanshu Mr",
+        "user_nation": "IN",
+        "created_at": "2019-04-19 21:10:46 +0700",
+        "title": "Excellent ",
+        "message": "I was travelling for the first time and was nervous because of various reasons. Mr Murali who guided me all through and taken prompt actions to my various queries. It was a lovely trip.\r\n\r\n"
+      },
+      {
+        "company": "Andaman Wave Master",
+        "votes": 10,
+        "user_name": "Gemma Jordan",
+        "user_nation": "GB",
+        "created_at": "2019-05-02 12:50:24 +0700",
+        "title": "Really reccomend ",
+        "message": "It was quick and easy I highly reccomend  using this service"
+      },
+      {
+        "company": "Lomprayah",
+        "votes": 10,
+        "user_name": "Frank  Jayne ",
+        "user_nation": "GB",
+        "created_at": "2019-04-20 14:17:46 +0700",
+        "title": "Koh Phangan to Koh Samui",
+        "message": "Fine."
+      },
+      {
+        "company": "Songserm",
+        "votes": 10,
+        "user_name": "John Scanlan",
+        "user_nation": "IE",
+        "created_at": "2019-04-21 16:52:17 +0700",
+        "title": "Great service",
+        "message": "Sound as a bell. Clear as a whistle"
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 6,
+        "user_name": "Brian Kastelic",
+        "user_nation": "CA",
+        "created_at": "2019-04-15 17:21:56 +0700",
+        "title": "okay",
+        "message": "Some guy on the boat kept on aggressively selling transfers, pretty much forcing people to buy them. "
+      },
+      {
+        "company": "Ao Nang Travel and Tour",
+        "votes": 8,
+        "user_name": "Kerrie Dyer",
+        "user_nation": "GB",
+        "created_at": "2019-04-18 13:36:30 +0700",
+        "title": "Good setup",
+        "message": "Improvements : should sell water or snacks on board. "
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 8,
+        "user_name": "Cristian Ballesteros",
+        "user_nation": "CO",
+        "created_at": "2019-02-17 15:23:26 +0700",
+        "title": "Fast and comfortable",
+        "message": "It was good we leave on time and arrive on time. "
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 8,
+        "user_name": "Cristian Ballesteros",
+        "user_nation": "CO",
+        "created_at": "2019-02-17 15:23:27 +0700",
+        "title": "Comfy ferry, smooth trip",
+        "message": "It was pleasant and on time. "
+      },
+      {
+        "company": "Songserm",
+        "votes": 10,
+        "user_name": "David Barnes",
+        "user_nation": "GB",
+        "created_at": "2019-03-21 12:45:58 +0700",
+        "title": "All went well. Everything on time and helpful customer service",
+        "message": "All went well. Everything on time and helpful customer service"
+      },
+      {
+        "company": "Chaokoh",
+        "votes": 10,
+        "user_name": "Prasanna Vanugopal",
+        "user_nation": "MY",
+        "created_at": "2019-02-19 21:55:03 +0700",
+        "title": "excellent",
+        "message": "Excellent service!"
+      },
+      {
+        "company": "Songserm",
+        "votes": 8,
+        "user_name": "Laura Ponjee",
+        "user_nation": "NL",
+        "created_at": "2019-03-21 21:38:53 +0700",
+        "title": "Trip from krabi to koh phangnan ",
+        "message": "Everything went very well the only thing was that we had to be at the busstop very early and waited for 2 hours. While people who arrived later for diffrent locations got to go on the bus before us."
+      }
+    ],
+    "operator": [
+      {
+        "name": "Thai Sriram",
+        "key": "thai-sriram",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130097/koh-op/logo_thaisriram.png"
+      },
+      {
+        "name": "Boonsiri",
+        "key": "boonsiri",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130094/koh-op/logo_boonsiri.png"
+      },
+      {
+        "name": "Lomprayah",
+        "key": "lomprayah",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130096/koh-op/logo_lomprayah.png"
+      },
+      {
+        "name": "Andaman Wave Master",
+        "key": "andaman-wave-master",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130095/koh-op/logo_andaman_wave_master.png"
+      },
+      {
+        "name": "Seatran Discovery",
+        "key": "seatran-discovery",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-seatran-discovery.png"
+      },
+      {
+        "name": "Songserm",
+        "key": "songserm",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-songserm.png"
+      },
+      {
+        "name": "Phantip Travel",
+        "key": "phantip-travel",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-phantip-travel.png"
+      },
+      {
+        "name": "Ao Nang Travel and Tour",
+        "key": "ao-nang-travel",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130095/koh-op/logo_aonangprincess.png"
+      },
+      {
+        "name": "Chaokoh",
+        "key": "chaokoh",
+        "url": "https://res.cloudinary.com/chinnatip-store/image/upload/v1495130096/koh-op/logo_chaokoh.png"
+      },
+      {
+        "name": "Green Planet Krabi",
+        "key": "green-planet-krabi",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-green-planet-krabi.png"
+      },
+      {
+        "name": "Raja Ferry",
+        "key": "raja-ferry",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-raja-ferry.png"
+      },
+      {
+        "name": "KOH Travel",
+        "key": "koh-travel",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-koh-travel.png"
+      },
+      {
+        "name": "Chaokoh Krabi",
+        "key": "chaokoh-krabi",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-chaokoh-krabi.png"
+      },
+      {
+        "name": "Phi Phi Cruiser",
+        "key": "phi-phi-cruiser",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-phi-phi-cruiser.png"
+      },
+      {
+        "name": "NP Tour",
+        "key": "nopparat",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-np-tour.png"
+      },
+      {
+        "name": "Travelmart",
+        "key": "travelmart",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-travelmart.png"
+      },
+      {
+        "name": "Phantip Travel Phuket",
+        "key": "phantip-travel-phuket",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-phantip-travel-phuket.png"
+      },
+      {
+        "name": "Satun Pakbara Speedboat Club",
+        "key": "satun-pakbara-speedboat-club",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-satun-pakbara-speedboat-club.png"
+      },
+      {
+        "name": "Hatyai World",
+        "key": "hatyai-world",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-hatyai-world.png"
+      },
+      {
+        "name": "Seatran Ferry",
+        "key": "seatran-ferry",
+        "url": "https://koh-assets.s3.ap-southeast-1.amazonaws.com/company/kohlife-company-thailand-seatran-ferry.png"
+      }
+    ]
+  },
+  {
+    "url": "www.kohlife.com/travel/thailand/flight",
+    "title": "Travelling by flight in Thailand",
+    "text": [
+      "Booking a flight in Thailand is a great way to travel around with little money and no waste of time. There are airports in every big town in Thailand like Bangkok, Krabi, Surat Thani, Chiang Mai, Hat Yai and Phuket so it won’t be a problem if you decide to use flight as the mean of transport. Moreover, most of Thai airlines companies offer low-cost flights where you will have all the safety and service but for the cheaper price.",
+      "Since the distances in Thailand are not that long, it won’t take more than 1,5 - 2 hours to move from one destination to another. Most of the time, the average time frame you’ll spend in the air would be around 40 minutes or 1 hour.",
+      "Nowadays, flights around Thailand gain more and more popularity among backpackers, couples and families with kids.",
+      "Most of the airports are international so you will be able to both enter Thailand and leave to other Southeast Asian countries by flight."
+    ],
+    "mapkey": "thailand_flight"
+  },
+  {
+    "url": "www.kohlife.com/travel/cambodia/train",
+    "title": "Travelling by train in Cambodia",
+    "text": [
+      "Travelling by train in Cambodia is an authentic way to experience the country, to see its splendid nature, meet the locals, see how life in the country is and get the most out of your Cambodian adventure!",
+      "For a long time, Cambodian railways were abandoned and only in 2016, the Royal Railways of Cambodia returned the train as the mean of transport back to life. Nowadays, you may only take a train from Phnom Penh to Sihanoukville which also stops in Kampot. But the plans are super big! So maybe in a few years, you would also be able to travel by train to Ho Chi Minh through the famous Mekong River.",
+      "If you want to do something, no one else has done before, impress your friends with unbelievable stories and post some really cool pictures to your social media, that is certainly something to do!",
+      "By the way, the railways take a lot of effort from the Royal Railways company as they do everything to make the train trips in Cambodia safe, comfortable, fast and fun!"
+    ],
+    "mapkey": "cambodia_train"
+  },
+  {
+    "url": "www.kohlife.com/travel/cambodia/bus",
+    "title": "Travelling by bus in Cambodia ",
+    "text": [
+      "The bus is the most famous and popular mean of travelling in Cambodia. Since the new roads are being built and repaired constantly, more and more routes and bus companies appear in the market. Buses in Cambodia vary depending on what comfort level you are seeking for: whether you are looking for the luxury buses with all the facilities or you are okay with the cheaper option of a small minivan. Cambodia has all the options to offer, and it is up to you to choose which one to travel with.",
+      "You can get to the main destinations in Cambodia like Phnom Penh, Sihanoukville, Kampot, Siem Ream by bus easily and cheap with Kohlife.com. Simply find the destination and your departure point and choose among different options.",
+      "The only few destinations which are not accessible by bus are the islands Koh Rong and Koh Rong Samloem. You will need to book a ferry to get to see the cleanest and one of the most beautiful places in Cambodia!"
+    ],
+    "mapkey": "cambodia_bus"
+  },
+  {
+    "url": "www.kohlife.com/travel/cambodia/ferry",
+    "title": "Travelling by ferry in Cambodia",
+    "text": [
+      "Travelling by ferry in Cambodia can be a fun adventure where you can enjoy beautiful weather, great view and fast journey to Cambodian islands like Koh Rong and Koh Rong Samloem.",
+      "Koh Rong and Koh Rong Samloem are one of the most beautiful islands you may find in Southeast Asia. Since not so many tourists know about the opportunity of simply buying a ticket to the ferry, the trip to Cambodian islands sounds surreal. In fact, it is very easy. Once you get to Sihanoukville (where you can get both by bus and flight) you can take a ferry to Koh Rong and Koh Rong Samloem.",
+      "The ferries in Cambodia circulate on an everyday basis having several trips during the day. It is a safe and easy way to get from the mainland and discover the islands which are absolutely untouched, authentic, beautiful and nothing compared to what you have seen before! You may choose from a variety of companies that Kohlife offers and pick the one that suits your expectations and travel itinerary!"
+    ],
+    "mapkey": "cambodia_ferry"
+  },
+  {
+    "url": "www.kohlife.com/travel/cambodia/flight",
+    "title": "Travelling by flight in Cambodia",
+    "text": [
+      "Flights, in general, are considered as the safest and fastest way of travelling around. In Cambodian reality, this can also be implemented!",
+      "There are international airports in the major cities of Cambodia like Phnom Penh, Sihanoukville and Siem Reap so you can easily get to the most visited places in Cambodia by booking a flight.",
+      "It will definitely save you some time to explore more and to enjoy the fast trips from one destination to another without any hustle and bustle.",
+      "Flights can be booked on Kohlife.com where you can choose from the variety of airways companies. Most of the flight companies in Cambodia offer the low-cost option which will allow you to get to the destination with less money! Don’t worry if you have never taken the low-cost airlines before. All the safety regulations are held just like on the regular airlines. The only thing which is different is the variety of services offered in low-cost airlines. You will have to pay additionally if you get hungry and there is usually no first class option available."
+    ],
+    "mapkey": "cambodia_flight"
+  },
+  {
+    "url": "www.kohlife.com/travel/vietnam/train",
+    "title": "Travelling by train in Vietnam",
+    "text": [
+      "The train is probably the most authentic and unique way to move around Vietnam. You can literally see the country by just sitting on your train bed and eating some snacks. Many Vietnamese choose train as the mean of transportation around Vietnam so picking train will help you watch the local culture and maybe meet some new local friends.",
+      "The trains nowadays are super comfortable, clean, having air conditioner and all the facilities for your convenient ride. Moreover, you may save your money on accommodation by choosing the night train. It will help you relax and get some energy to explore the new destination while being on the go!",
+      "The train system in Vietnam is very developed so you can get to almost any place by using a train:  Hanoi, Hue, Danang, Nha Trang, Saigon, Lao Cai, Sapa, Haiphong, Cat Ba Island, Halong Bay, Hoi An, Phan Thiet and Mui Ne.",
+      "You can book your train ticket on Kohlife and choose the best time option that will best fit your travel itinerary around Vietnam!"
+    ],
+    "mapkey": "vietnam_train"
+  },
+  {
+    "url": "www.kohlife.com/travel/vietnam/bus",
+    "title": "Travelling by bus in Vietnam",
+    "text": [
+      "The bus is the easiest and cheapest way to travel if you choose Vietnam as your travel destination. Since the country is opened to travellers all around the world, transport companies offer a wide spectrum of bus services and routes all around Vietnam. You may choose the luxury bus with all the facilities from the bio-toilet, wifi, AC and sleeping chairs to the tablet with movies, snacks and additional services. ",
+      "If you choose the bus as the means of travelling in Vietnam, be sure that you will get to the destination safe and sound as each company presented on Kohlife.com has a licence and is secured by the insurance in case any issues occur!",
+      "High demands from tourists annually drive the Vietnamese government to take good care of the roads so you won’t experience impassability of roads. You can choose from a wide range of the vehicle from comfortable minivans which are usually much faster or a big bus with a piece of modern equipment and luxurious designs!"
+    ],
+    "mapkey": "vietnam_bus"
+  },
+  {
+    "url": "www.kohlife.com/travel/vietnam/ferry",
+    "title": "Travelling by ferry in Vietnam",
+    "text": [
+      "Since a lot of travellers annually choose Vietnam as mainly the beach destination, giving the priority to the main resort places like Nha Trang, Phú Yên Province and Phú Quốc. ",
+      "Since those destinations are situated on the shore, one of the ways to get there is to book a ferry. ",
+      "Ferries are one of the safest ways to travel in Vietnam since every vehicle satisfies the high international standards and posses a professional crew. ",
+      "The variety of ferries to choose from in Vietnam is more than wide! You can choose the budget option where you will be able to reach your dream vacation place fast, cheap and safe or pick the option which includes more luxurious ferries with more facilities and higher services. ",
+      "Imagine taking a ferry on a nice sunny day, climbing up to the roof and relax while the ferry crosses the waves. You can get some tan or chill in the AC room on a comfy chair.",
+      "Anyway, whatever you choose, your choice on Kohlife.com will be the right one since we only partner with respected and trusted companies which we inspect on a regular basis!"
+    ],
+    "mapkey": "vietnam_ferry"
+  },
+  {
+    "url": "www.kohlife.com/travel/vietnam/flight",
+    "title": "Travelling by flight in Vietnam",
+    "text": [
+      "Flights remain the fastest and the easiest way to move around Vietnam which is why people who are travelling around Southeast Asia or just choosing Vietnam as their vacation destination usually stick to this mean of transport. It’s fast, relatively cheap and convenient.",
+      "Vietnam has got pretty far with the air flights offering low-cost options for travellers. Those flights are comfortable and safe, the only difference is that it has a limited number of services to offer, no business class and no food and drinks serving unless you want to get one for extra pay. ",
+      "Low-cost flights are a great alternative to regular flights as it helps you save a penny while spending the same amount of time in the air. That way you can easily move from one destination to another and save those precious moments to explore.",
+      "You can easily get to Hanoi, Ho Chi Minh, Phú Quốc and Phú Yên Province by flight just choose the company such as AirAsia, Vietnam Airlines, Vietjet Air and time which fits your expectations and needs."
+    ],
+    "mapkey": "vietnam_flight"
+  },
+  {
+    "url": "www.kohlife.com/travel/laos/train",
+    "title": "Travelling by train in Laos",
+    "text": [
+      "Laos railway is not the most popular way to travel around. Currently, only 3 kilometres of railway line connects Nong Khai and Vientiane via the friendship bridge.",
+      "Future constructions of the Laos railway are underway to extend this line to central Vientiane and eventually connecting with Boten on the border with China.",
+      " Even though it is not common to take a train, it is very authentic and you won’t regret taking it for the sake of experience."
+    ],
+    "mapkey": "laos_train"
+  },
+  {
+    "url": "www.kohlife.com/travel/laos/bus",
+    "title": "Travelling by bus in Laos",
+    "text": [
+      "Since Laos has no proper railway system apart from the very short distance railway line from Nong Khai to Vientiane via the friendship bridge, buses have become the main form of public transportation for short-distance and long-distance travelling in Laos.",
+      "Public buses out of Vientiane cater mainly to the capital’s outlying districts with service to few towns out of Vientiane such as Vang Vieng, Xiengkhuang, Thakaek, Savannakhet or Pakse.",
+      "The private company offering VIP buses have newer looking, more comfortable buses with better service, and more frequent departures. These private company buses connect Vientiane with main hubs like Luang Prabang and Pakse. From these bus hubs, there are regular, local buses connecting surrounding districts as well as border towns.",
+      "Vientiane Central Bus Station, also known as Talat Sao Bus Station, is Vientiane’s city centre bus terminal located off the Avenue Lane Xang, just to the east of the morning market. It has bus services to nearby places in and around the capital city. It is also possible to catch a bus to Vang Vieng, Thakaek, Savannakhet or Pakse here",
+      "Northern Bus Terminal is a long-distance bus terminal located 9.6 km by road to the North East of the Patuxai Monument. The Northern Bus Terminal is the departure point for bus services heading north towards Vang Vieng, Luang Prabang, Southern China and other northern destinations within Laos."
+    ],
+    "mapkey": "laos_bus"
+  },
+  {
+    "url": "www.kohlife.com/travel/laos/ferry",
+    "title": "Travelling by boat in Laos",
+    "text": [
+      "Even though Laos is a landlocked country, there are 4,350 kilometres of navigable rivers in Laos. The main river in Laos is the Mekong river which runs through the length of this landlocked country, Cambodia, and Vietnam before draining into the South China sea. The Mekong is very much a big part of Laos life.",
+      "As the road network in Laos steadily improves, boat services have dropped as it is cheaper to transport cargo, including people, by road. As it stands, the only slow boat routes still operating are those popular with tourists. The Huay Xai - Pak Beng - Luang Prabang trip and the Nong Khiaw - Muang Ngoi - Muang Khua - Hat Sa routes are the most popular.",
+      "Travelling by a slow boat in Laos is highly recommended, even if your only option is the Huay Xai to Luang Prabang with a stopover at Pakbeng route. The large slow boat from Huay Xai to Luang Prabang is set up with comfortable seats and a toilet. Smaller boats are used for shorter routes.",
+      "The scenery along the rivers is breathtaking with remote communities dotted along the Mekong river and their only connection to the outside world is the passing slow boat, which stops to unload cargo and transport villagers.",
+      "Speedboats in Laos have a kind of mystical aura surrounding them, and what are they like? These speedboats are small and wide enough to fit two people side by side and usually take 6 to 8 people. These boats don’t have proper seats, simply a wooden separator onto which a cushion is lent and then a cushion for the floor on which you sit.",
+      "These speedboats travel fast with speeds around 55 kilometres an hour upriver and about 60 kilometres an hour downriver. While that doesn’t sound so fast. it feels fast when you are sitting just centimetres from the water and you are flying over rapids and zooming past rocks."
+    ],
+    "mapkey": "laos_ferry"
+  },
+  {
+    "url": "www.kohlife.com/travel/laos/flight",
+    "title": "Travelling by flight in Laos",
+    "text": [
+      "Laos has three international airports: Wattay International Airport in Vientiane, Luang Prabang International Airport in Luang Prabang and Pakse International Airport in Pakse. A number of international carriers, including Air Asia, Vietnam Airlines and Bangkok Airways now fly to Laos.",
+      "There are two Lao airlines operating in Laos, the larger national carrier, Lao Airlines and a smaller carrier Lao Skyway. Lao Airlines flies both international and domestic routes and Lao Skyway flies domestic routes only. If you plan to fly domestically, chances are you'll be on a Lao Airlines flight as Lao Skyway route is far more limited.",
+      "The Lao Airlines fleet has improved significantly in recent years and their safety record compares favourably with other regional airlines, as well as with the safety risks associated with other means of travel in Laos.",
+      "Flights in Laos remain one of the most effective ways to travel around the country. Flights in Laos are cheap and safe if you are concerned about time and money. Taking a flight in Laos means a comfortable and fast journey."
+    ],
+    "mapkey": "laos_airplane"
+  }
+]

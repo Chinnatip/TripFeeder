@@ -1,0 +1,12 @@
+trip_id,booking_id,pnr,voucher_id,agency,booking_date,booking_time,passenger_name,adult,kid,email,telephone,country,pickup_location,dropoff_location,status,rate,agent_name,agent_system,agent_contact,admin_branch,admin_system,admin_contact
+KL002-191112,191112448601,LMLRDT,KLK928102123,klook,12 Nov 2019,15:21,Eng Seong Ong,2,2,montealegre811@gmail.com,+44780088059,uk,A-Hotel Phuket City,B-Hotel Phi Phi Island,confirmed,"1,200",klook,api,admin,Phuket,api,admin
+KL002-191112,191112448599,EUSNET,TL8291824DEI,trainline,12 Nov 2019,15:17,Chris Duncan,2,0,chris.dun@gmail.com,-,us,Novotel Phuket,-,confirmed,500,trainline,api,admin,Phuket,api,admin
+KL002-191112,191112448589,83EHHH,8281971213,koh,12 Nov 2019,08:09,Neriah Beaumont,3,1,drjlaw@outlook.com,-,us,-,-,confirmed,1000,koh,Line,id:sukrit,Krabi,Line,admin
+KL002-191112,191112448586,GD77EE,DJ73891291,koh,12 Nov 2019,05:02,Harpreet Guzman,1,0,jmcnamara@yahoo.ca,-,us,-,-,confirmed,250,koh,Phone,k.beer,Koh Phi Phi,Dashboard,user:sukanya
+KL002-191112,191112448583,DDJUE3,CEB73912,12go,11 Nov 2019,23:49,Shona Jacobson,1,0,jusdisgi@verizon.net,+44212086756,uk,-,-,confirmed,250,12go,email,admin,Krabi,email,admin
+KL002-191112,191112448580,HEINSD,KLK8381028811,trainline,11 Nov 2019,19:33,Melina Dodd,2,1,north@aol.com,+49216201821,de,Karon Hostel,-,confirmed,900,trainline,api,admin,Phuket,api,api
+KL002-191112,191112448577,DCE666,RE928182001,trainline,11 Nov 2019,18:32,Fraser Fowler,3,0,codex@me.com,+46829182919,cn,-,-,confirmed,750,trainline,api,admin,Phuket,api,api
+KL002-191112,191112448574,555EGS,1282018210,trip,11 Nov 2019,10:21,Tegan Hester,6,0,cgcra@hotmail.com,+49210291021,de,-,-,confirmed,1500,trip,api,admin,Phuket,api,api
+KL002-191112,191112448571,44EYS78,C48310,trip,11 Nov 2019,07:28,Barry Bellamy,4,2,wenzlaff@verizon.net,+60281928192,sg,-,-,confirmed,1500,trip,api,admin,Phuket,api,api
+KL002-191112,191112448568,HDU542,D838102,guide,10 Nov 2019,22:21,Saffa Woodcock,2,0,kewley@mac.com,-,aus,-,-,confirmed,500,guide,api,admin,Phuket,api,api
+KL002-191112,191112448565,DHSN78,19029192,guide,10 Nov 2019,20:48,Petra Mccaffrey,2,0,ilial@hotmail.com,,nz,-,-,confirmed,500,guide,api,admin,Phuket,api,api

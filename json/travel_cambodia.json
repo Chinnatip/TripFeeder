@@ -1,0 +1,67 @@
+{
+  "title": "Travel to Cambodia",
+  "about": {
+    "header": "Explore Cambodia with Kohlife",
+    "description": "Cambodia is a country which is full of mysterious, legends and which disturbs the minds of travellers from all over the world. Think about Angkor Wat with its unbelievable atmosphere and history. Moreover, Cambodia is truly untouched. Its beaches and nature haven’t experienced the crowd yet and that’s why should be treated with respect and care leaving the opportunity for everyone to experience its authentic beauty! It’s a safe and welcoming place where you’ll spend your unforgettable trips and gain memories that last."
+  },
+  "travel": {
+    "header": "How to get around Southeast Asia",
+    "detail": [
+      {
+        "header": "Train Travel in Cambodia",
+        "link": {
+          "title": "Cambodia Train",
+          "url": "/travel/cambodia/train"
+        },
+        "desc": "Cambodia posses one domestic train service and it is developing fast according to the modern standards! It is absolutely safe and comfortable to hop on the local train to experience the unforgettable beauty of the Cambodian landscape. Moreover, travelling by train in Cambodia will save you a penny since you don’t have to pay for the night in a hotel!"
+      },
+      {
+        "header": "Bus travel in Cambodia",
+        "link": {
+          "title": "Cambodia Bus",
+          "url": "/travel/cambodia/bus"
+        },
+        "desc": "Travelling by bus in Cambodia is simple and cheap. There is a big number of routes all around Cambodia and you may choose any destination you are thinking of except the islands. Buses are mostly on time and having the AC and free Wifi!"
+      },
+      {
+        "header": "Ferry travel in Cambodia ",
+        "link": {
+          "title": "Cambodia Ferry",
+          "url": "/travel/cambodia/ferry"
+        },
+        "desc": "One of the hidden gems of Cambodia is its islands! Situated away from the shore, the only way to get there is a ferry. There is a wide range of various ferries to choose from depending on what are your expectations. But no matter what company you choose with Kohlife, be sure it is safe, comfortable and cheap!"
+      },
+      {
+        "header": "Flight travel in Cambodia",
+        "link": {
+          "title": "Cambodia Flight",
+          "url": "/travel/cambodia/flight"
+        },
+        "desc": "Flights in Cambodia are usually very short, smooth and cheap. Since there are many low-cost options, the flights in Cambodia became a routine for travellers all around the world. Simple and smart service will make your trip easy and comfortable"
+      }
+    ]
+  },
+  "popular": {
+    "header": "Cambodia’s Popular Destination Countries",
+    "detail": [
+      {
+        "header": "Travel to Siem Reap",
+        "dest_title": "Popular Siem Reap’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Siem Reap",
+        "desc": "Siem Reap is the reason most travellers visit Cambodia. It is home of the tremendous Angkor City which is now protected by UNESCO. Walking around its walls and looking on the statues of Buddha bring serenity in your mind and heart. It is a one in a lifetime experience which will make you speechless as this beauty is beyond the time and fashion. You can easily get to Siem reap by booking a flight or bus with Kohlife."
+      },
+      {
+        "header": "Travel to Phnom Penh",
+        "dest_title": "Popular Phnom Penh’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Phnom Penh",
+        "desc": "Phnom Penh is a Southeast Asian capital, capital of Cambodia. The first thing that amazes you here is the space and air of the big city! The centre of the town is pierced with the long Mekong River and Phnom Penh drowns in greenery. There are so many things to see and explore whether you like to learn the history and culture or enjoy the nightlife of Phnom Penh. You may get to the capital of Cambodia by booking a flight, bus or train!"
+      },
+      {
+        "header": "Travel to Koh Rong",
+        "dest_title": "Popular Koh Rong’s destinations ",
+        "blog_title": "Kohlife’s blog and journey about Koh Rong",
+        "desc": "Koh Rong is probably the coolest island to go for the most unusual and real experience. First of all, it is still not fully developed, there are no roads or crazy crowds of people. It is a small island with unbelievable nature, the cleanest beaches and water and very fresh seafood and fruits. The only way to get to the island is by ferry which leaves from Sihanoukville. Try it and you will never regret getting to Koh Rong!"
+      }
+    ]
+  }
+}

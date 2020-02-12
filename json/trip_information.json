@@ -1,0 +1,24 @@
+[
+  {
+    "trip_id": "3",
+    "booking_id": "3",
+    "pnr": "3",
+    "voucher_id": "3",
+    "agency": "3",
+    "booking_date": "3",
+    "booking_time": "3",
+    "passenger_name": "3",
+    "adult": "3",
+    "kid": "3",
+    "email": "3",
+    "telephone": "3",
+    "pickup_location": "3",
+    "dropoff_location": "3",
+    "status": "3",
+    "rate": "3",
+    "agent_name": "3",
+    "agent_contact": "3",
+    "admin_name": "3",
+    "admin_contact": "3"
+  }
+]
