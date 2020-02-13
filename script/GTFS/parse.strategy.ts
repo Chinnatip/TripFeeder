@@ -7,7 +7,7 @@ export const parseData = path =>
     header: true
   }).data
 
-export const saveTo = (fileType, zip, fileName: string, data: Object[]) => {
+export const saveTo = (fileType, zip, fileName: string, data) => {
   const unparseFile = unparse(data, {
     quotes: true,
     quoteChar: '"',

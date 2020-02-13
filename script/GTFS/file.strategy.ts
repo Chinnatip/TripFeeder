@@ -1,47 +1,63 @@
-export const agency = (original: any[]) => {
+import * as knex from '../../db/knex'
+
+export const agency = async (original: any[]) => {
   const uniqueArr: any[] = [...new Set(original.map(data => data.company))]
+  const companyList = await knex('companies').select(
+    'id',
+    'op_name',
+    'website',
+    'main_phone_number'
+  )
+  // console.log('com >>', companyList)
   return uniqueArr.map((companyName: string, index: number) => {
+    const select = companyList.find(({ op_name }) => op_name === companyName)
     return {
-      agency_id: index,
-      agency_name: companyName,
-      agency_url: `https://www.${companyName}.com`,
+      agency_id: select.id,
+      agency_name: select.op_name,
+      agency_url: select.website,
       agency_timezone: 'Asia/Bangkok',
-      agency_phone: `+6600000000${index}`
+      agency_phone: select.main_phone_number
     }
   })
 }
 
-export const stops = (original: any[]) => {
+export const stops = async (original: any[]) => {
   const uniqueFromStation: any[] = [
     ...new Set(original.map(data => data.fromStation))
   ]
+  const uniqueToStation: any[] = [
+    ...new Set(original.map(data => data.toStation))
+  ]
   const uniqueFromStationReconstruct = uniqueFromStation.map(
     (fromStationName: string) => {
-      let fromStationData = original.find(
-        arr => arr.fromStation === fromStationName
-      )
+      let {
+        fromStationLatitude,
+        fromStationLongitude,
+        fromDestination
+      } = original.find(({ fromStation }) => fromStation === fromStationName)
       return {
         stop_name: fromStationName,
-        stop_lat: fromStationData.fromStationLatitude,
-        stop_lon: fromStationData.fromStationLongitude,
-        zone_id: fromStationData.fromDestination,
+        stop_lat: fromStationLatitude,
+        stop_lon: fromStationLongitude,
+        zone_id: fromDestination,
         stop_url: '',
         location_type: '',
         parent_station: ''
       }
     }
   )
-  const uniqueToStation: any[] = [
-    ...new Set(original.map(data => data.toStation))
-  ]
   const uniqueToStationReconstruct = uniqueToStation.map(
     (toStationName: string) => {
-      let toStationData = original.find(arr => arr.toStation === toStationName)
+      let {
+        toStationLatitude,
+        toStationLongitude,
+        toDestination
+      } = original.find(({ toStation }) => toStation === toStationName)
       return {
         stop_name: toStationName,
-        stop_lat: toStationData.toStationLatitude,
-        stop_lon: toStationData.toStationLongitude,
-        zone_id: toStationData.toDestination,
+        stop_lat: toStationLatitude,
+        stop_lon: toStationLongitude,
+        zone_id: toDestination,
         stop_url: '',
         location_type: '',
         parent_station: ''
@@ -52,19 +68,28 @@ export const stops = (original: any[]) => {
     ...uniqueFromStationReconstruct,
     ...uniqueToStationReconstruct
   ]
+  //
   const uniqueStation: any[] = [...new Set(station.map(data => data.stop_name))]
   const uniqueStationReconstruct = uniqueStation.map(
     (stop_name: string, index: number) => {
-      let stationData = station.find(arr => arr.stop_name === stop_name)
+      let {
+        stop_name: get_stop_name,
+        stop_lat,
+        stop_lon,
+        zone_id,
+        stop_url,
+        location_type,
+        parent_station
+      } = station.find(({ stop_name }) => stop_name === stop_name)
       return {
         stop_id: index,
-        stop_name: stationData.stop_name,
-        stop_lat: stationData.stop_lat,
-        stop_lon: stationData.stop_lon,
-        zone_id: stationData.zone_id,
-        stop_url: stationData.stop_url,
-        location_type: stationData.location_type,
-        parent_station: stationData.parent_station
+        stop_name: get_stop_name,
+        stop_lat,
+        stop_lon,
+        zone_id,
+        stop_url,
+        location_type,
+        parent_station
       }
     }
   )
