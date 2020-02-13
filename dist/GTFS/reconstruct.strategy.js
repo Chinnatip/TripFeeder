@@ -15,7 +15,7 @@ var reConstructWeeklySchedule = function (weekly) {
 };
 exports.reconstructData = function (data) {
     return data.map(function (data) {
-        var company = data.company, fromDestination = data.fromDestination, toDestination = data.toDestination, fromStation = data.fromStation, fromStationLatitude = data.fromStationLatitude, fromStationLongitude = data.fromStationLongitude, toStation = data.toStation, toStationLatitude = data.toStationLatitude, toStationLongitude = data.toStationLongitude, duration = data.duration, departure_time = data.departure_time, arrival_time = data.arrival_time, toStop1VehicleType = data.toStop1VehicleType, weekly_schedule_mask = data.weekly_schedule_mask, default_price = data.default_price;
+        var company = data.company, fromDestination = data.fromDestination, toDestination = data.toDestination, fromStation = data.fromStation, fromStationLatitude = data.fromStationLatitude, fromStationLongitude = data.fromStationLongitude, toStation = data.toStation, toStationLatitude = data.toStationLatitude, toStationLongitude = data.toStationLongitude, duration = data.duration, departure_time = data.departure_time, arrival_time = data.arrival_time, toStop1VehicleType = data.toStop1VehicleType, stop1Station = data.stop1Station, weekly_schedule_mask = data.weekly_schedule_mask, default_price = data.default_price;
         return {
             company: company,
             fromDestination: fromDestination,
@@ -30,6 +30,7 @@ exports.reconstructData = function (data) {
             departure_time: departure_time,
             arrival_time: arrival_time,
             toStop1VehicleType: toStop1VehicleType,
+            stop1Station: stop1Station,
             weekly_schedule_mask: reConstructWeeklySchedule(weekly_schedule_mask),
             default_price: default_price
         };

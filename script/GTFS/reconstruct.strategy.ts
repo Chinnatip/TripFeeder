@@ -28,23 +28,25 @@ export const reconstructData = data =>
       departure_time,
       arrival_time,
       toStop1VehicleType,
+      stop1Station,
       weekly_schedule_mask,
       default_price
     } = data
     return {
       company: company,
-      fromDestination: fromDestination,
-      toDestination: toDestination,
-      fromStation: fromStation,
+      fromDestination,
+      toDestination,
+      fromStation,
       fromStationLatitude: fromStationLatitude,
       fromStationLongitude: fromStationLongitude,
-      toStation: toStation,
+      toStation,
       toStationLatitude: toStationLatitude,
       toStationLongitude: toStationLongitude,
       duration: duration,
       departure_time: departure_time,
       arrival_time: arrival_time,
       toStop1VehicleType: toStop1VehicleType,
+      stop1Station,
       weekly_schedule_mask: reConstructWeeklySchedule(weekly_schedule_mask),
       default_price: default_price
     }

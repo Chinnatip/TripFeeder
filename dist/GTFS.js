@@ -18,8 +18,10 @@ async.series([
         });
     },
     function prepareStop(step) {
-        parse_strategy_1.saveTo('csv', zip, 'stops', file_strategy_1.stops(originalData));
-        step();
+        file_strategy_1.stops(originalData).then(function (data) {
+            parse_strategy_1.saveTo('csv', zip, 'stops', data);
+            step();
+        });
     },
     function compress(step) {
         parse_strategy_1.compressZip(zip, ZIP_PATH_NAME);

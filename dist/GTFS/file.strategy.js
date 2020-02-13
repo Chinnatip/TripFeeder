@@ -86,59 +86,72 @@ exports.agency = function (original) { return __awaiter(void 0, void 0, void 0, 
     });
 }); };
 exports.stops = function (original) { return __awaiter(void 0, void 0, void 0, function () {
-    var uniqueFromStation, uniqueToStation, uniqueFromStationReconstruct, uniqueToStationReconstruct, station, uniqueStation, uniqueStationReconstruct;
+    var destinationLists, terminalLists, uniqueDestination, uniqueTerminal, destinations, terminals, parentDestination, stopResponse;
     return __generator(this, function (_a) {
-        uniqueFromStation = __spread(new Set(original.map(function (data) { return data.fromStation; })));
-        uniqueToStation = __spread(new Set(original.map(function (data) { return data.toStation; })));
-        uniqueFromStationReconstruct = uniqueFromStation.map(function (fromStationName) {
-            var _a = original.find(function (_a) {
-                var fromStation = _a.fromStation;
-                return fromStation === fromStationName;
-            }), fromStationLatitude = _a.fromStationLatitude, fromStationLongitude = _a.fromStationLongitude, fromDestination = _a.fromDestination;
-            return {
-                stop_name: fromStationName,
-                stop_lat: fromStationLatitude,
-                stop_lon: fromStationLongitude,
-                zone_id: fromDestination,
-                stop_url: '',
-                location_type: '',
-                parent_station: ''
-            };
-        });
-        uniqueToStationReconstruct = uniqueToStation.map(function (toStationName) {
-            var _a = original.find(function (_a) {
-                var toStation = _a.toStation;
-                return toStation === toStationName;
-            }), toStationLatitude = _a.toStationLatitude, toStationLongitude = _a.toStationLongitude, toDestination = _a.toDestination;
-            return {
-                stop_name: toStationName,
-                stop_lat: toStationLatitude,
-                stop_lon: toStationLongitude,
-                zone_id: toDestination,
-                stop_url: '',
-                location_type: '',
-                parent_station: ''
-            };
-        });
-        station = __spread(uniqueFromStationReconstruct, uniqueToStationReconstruct);
-        uniqueStation = __spread(new Set(station.map(function (data) { return data.stop_name; })));
-        uniqueStationReconstruct = uniqueStation.map(function (stop_name, index) {
-            var _a = station.find(function (_a) {
-                var stop_name = _a.stop_name;
-                return stop_name === stop_name;
-            }), get_stop_name = _a.stop_name, stop_lat = _a.stop_lat, stop_lon = _a.stop_lon, zone_id = _a.zone_id, stop_url = _a.stop_url, location_type = _a.location_type, parent_station = _a.parent_station;
-            return {
-                stop_id: index,
-                stop_name: get_stop_name,
-                stop_lat: stop_lat,
-                stop_lon: stop_lon,
-                zone_id: zone_id,
-                stop_url: stop_url,
-                location_type: location_type,
-                parent_station: parent_station
-            };
-        });
-        return [2 /*return*/, uniqueStationReconstruct];
+        switch (_a.label) {
+            case 0:
+                destinationLists = [];
+                terminalLists = [];
+                original.map(function (_a) {
+                    var fromDestination = _a.fromDestination, toDestination = _a.toDestination, fromStation = _a.fromStation, toStation = _a.toStation, stop1Station = _a.stop1Station;
+                    destinationLists.push(fromDestination);
+                    destinationLists.push(toDestination);
+                    terminalLists.push(fromStation);
+                    terminalLists.push(toStation);
+                    terminalLists.push(stop1Station);
+                });
+                uniqueDestination = __spread(new Set(destinationLists));
+                uniqueTerminal = __spread(new Set(terminalLists));
+                return [4 /*yield*/, knex('locations')
+                        .whereIn('name', uniqueDestination)
+                        .select('id', 'name', 'type', 'latitude', 'longitude')];
+            case 1:
+                destinations = _a.sent();
+                return [4 /*yield*/, knex('locations')
+                        .whereIn('name', uniqueTerminal)
+                        .select('id', 'name', 'type', 'latitude', 'longitude', 'parent_location_id')];
+            case 2:
+                terminals = _a.sent();
+                return [4 /*yield*/, knex('locations')
+                        .whereIn('id', terminals.map(function (_a) {
+                        var parent_location_id = _a.parent_location_id;
+                        return parent_location_id;
+                    }))
+                        .select('id', 'name')];
+            case 3:
+                parentDestination = _a.sent();
+                stopResponse = [];
+                destinations.map(function (_a) {
+                    var id = _a.id, name = _a.name, type = _a.type, latitude = _a.latitude, longitude = _a.longitude;
+                    stopResponse.push({
+                        stop_id: id,
+                        stop_name: name,
+                        stop_lat: latitude,
+                        stop_lon: longitude,
+                        zone_id: '',
+                        stop_url: '',
+                        location_type: 1,
+                        parent_station: ''
+                    });
+                });
+                terminals.map(function (_a) {
+                    var id = _a.id, name = _a.name, type = _a.type, latitude = _a.latitude, longitude = _a.longitude, parent_location_id = _a.parent_location_id;
+                    stopResponse.push({
+                        stop_id: id,
+                        stop_name: name,
+                        stop_lat: latitude,
+                        stop_lon: longitude,
+                        zone_id: '',
+                        stop_url: '',
+                        location_type: 2,
+                        parent_station: parentDestination.find(function (_a) {
+                            var id = _a.id;
+                            return parent_location_id === id;
+                        }).name
+                    });
+                });
+                return [2 /*return*/, stopResponse];
+        }
     });
 }); };
 //# sourceMappingURL=file.strategy.js.map
