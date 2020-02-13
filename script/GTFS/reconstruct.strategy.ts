@@ -13,41 +13,47 @@ const reConstructWeeklySchedule = (weekly: string): object => {
 }
 
 export const reconstructData = data =>
-  data.map(data => {
-    const {
-      company,
-      fromDestination,
-      toDestination,
-      fromStation,
-      fromStationLatitude,
-      fromStationLongitude,
-      toStation,
-      toStationLatitude,
-      toStationLongitude,
-      duration,
-      departure_time,
-      arrival_time,
-      toStop1VehicleType,
-      stop1Station,
-      weekly_schedule_mask,
-      default_price
-    } = data
-    return {
-      company: company,
-      fromDestination,
-      toDestination,
-      fromStation,
-      fromStationLatitude: fromStationLatitude,
-      fromStationLongitude: fromStationLongitude,
-      toStation,
-      toStationLatitude: toStationLatitude,
-      toStationLongitude: toStationLongitude,
-      duration: duration,
-      departure_time: departure_time,
-      arrival_time: arrival_time,
-      toStop1VehicleType: toStop1VehicleType,
-      stop1Station,
-      weekly_schedule_mask: reConstructWeeklySchedule(weekly_schedule_mask),
-      default_price: default_price
-    }
-  })
+  data
+    .filter(data => data.id !== undefined)
+    .map(data => {
+      const {
+        id,
+        routeId,
+        company,
+        fromDestination,
+        toDestination,
+        fromStation,
+        fromStationLatitude,
+        fromStationLongitude,
+        toStation,
+        toStationLatitude,
+        toStationLongitude,
+        duration,
+        departure_time,
+        arrival_time,
+        toStop1VehicleType,
+        stop1Station,
+        weekly_schedule_mask,
+        default_price
+      } = data
+      return {
+        id,
+        routeId,
+        company,
+        fromDestination,
+        toDestination,
+        fromStation,
+        fromStationLatitude,
+        fromStationLongitude,
+        toStation,
+        toStationLatitude,
+        toStationLongitude,
+        duration,
+        departure_time,
+        arrival_time,
+        toStop1VehicleType,
+        stop1Station,
+        weekly_schedule_mask: reConstructWeeklySchedule(weekly_schedule_mask),
+        default_price
+      }
+    })

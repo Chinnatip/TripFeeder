@@ -22,7 +22,7 @@
     "travel_destination": "tsc -p . && node dist/kohlife_travel_destination",
     "extract": "tsc -p . && node dist/extract_csv",
     "prepare_zip": "tsc -p . && NODE_ENV=production && node dist/prep_zip",
-    "prepare_gtfs": "tsc -p . && NODE_ENV=development node dist/GTFS",
+    "prepare_gtfs": "tsc -p . && NODE_ENV=production node dist/GTFS",
     "sheet_new": "tsc -p . && node dist/google_sheet_new",
     "sheet_read": "tsc -p . && node dist/sheet_read",
     "sheet_write": "tsc -p . && node dist/sheet_write",

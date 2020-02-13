@@ -14,9 +14,13 @@ var reConstructWeeklySchedule = function (weekly) {
     return weeklyResult;
 };
 exports.reconstructData = function (data) {
-    return data.map(function (data) {
-        var company = data.company, fromDestination = data.fromDestination, toDestination = data.toDestination, fromStation = data.fromStation, fromStationLatitude = data.fromStationLatitude, fromStationLongitude = data.fromStationLongitude, toStation = data.toStation, toStationLatitude = data.toStationLatitude, toStationLongitude = data.toStationLongitude, duration = data.duration, departure_time = data.departure_time, arrival_time = data.arrival_time, toStop1VehicleType = data.toStop1VehicleType, stop1Station = data.stop1Station, weekly_schedule_mask = data.weekly_schedule_mask, default_price = data.default_price;
+    return data
+        .filter(function (data) { return data.id !== undefined; })
+        .map(function (data) {
+        var id = data.id, routeId = data.routeId, company = data.company, fromDestination = data.fromDestination, toDestination = data.toDestination, fromStation = data.fromStation, fromStationLatitude = data.fromStationLatitude, fromStationLongitude = data.fromStationLongitude, toStation = data.toStation, toStationLatitude = data.toStationLatitude, toStationLongitude = data.toStationLongitude, duration = data.duration, departure_time = data.departure_time, arrival_time = data.arrival_time, toStop1VehicleType = data.toStop1VehicleType, stop1Station = data.stop1Station, weekly_schedule_mask = data.weekly_schedule_mask, default_price = data.default_price;
         return {
+            id: id,
+            routeId: routeId,
             company: company,
             fromDestination: fromDestination,
             toDestination: toDestination,

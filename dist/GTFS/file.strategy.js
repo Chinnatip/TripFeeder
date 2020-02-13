@@ -63,12 +63,9 @@ exports.agency = function (original) { return __awaiter(void 0, void 0, void 0, 
         switch (_a.label) {
             case 0:
                 uniqueArr = __spread(new Set(original.map(function (data) { return data.company; })));
-                return [4 /*yield*/, knex('companies').select('id', 'op_name', 'website', 'main_phone_number')
-                    // console.log('com >>', companyList)
-                ];
+                return [4 /*yield*/, knex('companies').select('id', 'op_name', 'website', 'main_phone_number')];
             case 1:
                 companyList = _a.sent();
-                // console.log('com >>', companyList)
                 return [2 /*return*/, uniqueArr.map(function (companyName, index) {
                         var select = companyList.find(function (_a) {
                             var op_name = _a.op_name;
@@ -83,6 +80,52 @@ exports.agency = function (original) { return __awaiter(void 0, void 0, void 0, 
                         };
                     })];
         }
+    });
+}); };
+exports.fareAttributes = function (original, fareRuleIDS, agencyIDS) { return __awaiter(void 0, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        return [2 /*return*/, fareRuleIDS.map(function (_a) {
+                var fare_id = _a.fare_id, real_route_id = _a.real_route_id;
+                var _b = original.find(function (_a) {
+                    var id = _a.id;
+                    return id === real_route_id;
+                }), company = _b.company, default_price = _b.default_price, duration = _b.duration;
+                var agency_id = agencyIDS.find(function (_a) {
+                    var agency_name = _a.agency_name;
+                    return agency_name === company;
+                }).agency_id;
+                return {
+                    fare_id: fare_id,
+                    price: default_price,
+                    currency_type: 'THB',
+                    payment_method: 1,
+                    transfers: 0,
+                    agency_id: agency_id,
+                    transfer_duration: duration * 60
+                };
+            })];
+    });
+}); };
+exports.fareRules = function (original, stopIDS) { return __awaiter(void 0, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        return [2 /*return*/, original.map(function (_a, index) {
+                var routeId = _a.routeId, id = _a.id, fromDestination = _a.fromDestination, toDestination = _a.toDestination;
+                var origin = stopIDS.find(function (_a) {
+                    var stop_name = _a.stop_name;
+                    return stop_name === fromDestination;
+                });
+                var destination = stopIDS.find(function (_a) {
+                    var stop_name = _a.stop_name;
+                    return stop_name === toDestination;
+                });
+                return {
+                    fare_id: index + 1,
+                    route_id: routeId,
+                    real_route_id: id,
+                    origin_id: origin.stop_id,
+                    destination_id: destination.stop_id
+                };
+            })];
     });
 }); };
 exports.stops = function (original) { return __awaiter(void 0, void 0, void 0, function () {
@@ -130,7 +173,7 @@ exports.stops = function (original) { return __awaiter(void 0, void 0, void 0, f
                         stop_lon: longitude,
                         zone_id: '',
                         stop_url: '',
-                        location_type: 1,
+                        location_type: 0,
                         parent_station: ''
                     });
                 });
@@ -143,7 +186,7 @@ exports.stops = function (original) { return __awaiter(void 0, void 0, void 0, f
                         stop_lon: longitude,
                         zone_id: '',
                         stop_url: '',
-                        location_type: 2,
+                        location_type: 1,
                         parent_station: parentDestination.find(function (_a) {
                             var id = _a.id;
                             return parent_location_id === id;

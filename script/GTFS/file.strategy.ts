@@ -8,7 +8,6 @@ export const agency = async (original: any[]) => {
     'website',
     'main_phone_number'
   )
-  // console.log('com >>', companyList)
   return uniqueArr.map((companyName: string, index: number) => {
     const select = companyList.find(({ op_name }) => op_name === companyName)
     return {
@@ -19,6 +18,50 @@ export const agency = async (original: any[]) => {
       agency_phone: select.main_phone_number
     }
   })
+}
+
+export const fareAttributes = async (
+  original: any[],
+  fareRuleIDS,
+  agencyIDS
+) => {
+  return fareRuleIDS.map(({ fare_id, real_route_id }) => {
+    const { company, default_price, duration } = original.find(
+      ({ id }) => id === real_route_id
+    )
+    const { agency_id } = agencyIDS.find(
+      ({ agency_name }) => agency_name === company
+    )
+    return {
+      fare_id: fare_id,
+      price: default_price,
+      currency_type: 'THB',
+      payment_method: 1,
+      transfers: 0,
+      agency_id: agency_id,
+      transfer_duration: duration * 60
+    }
+  })
+}
+
+export const fareRules = async (original: any[], stopIDS) => {
+  return original.map(
+    ({ routeId, id, fromDestination, toDestination }, index) => {
+      const origin = stopIDS.find(
+        ({ stop_name }) => stop_name === fromDestination
+      )
+      const destination = stopIDS.find(
+        ({ stop_name }) => stop_name === toDestination
+      )
+      return {
+        fare_id: index + 1,
+        route_id: routeId,
+        real_route_id: id,
+        origin_id: origin.stop_id,
+        destination_id: destination.stop_id
+      }
+    }
+  )
 }
 
 export const stops = async (original: any[]) => {
@@ -62,7 +105,7 @@ export const stops = async (original: any[]) => {
       stop_lon: longitude,
       zone_id: '',
       stop_url: '',
-      location_type: 1,
+      location_type: 0,
       parent_station: ''
     })
   })
@@ -75,7 +118,7 @@ export const stops = async (original: any[]) => {
         stop_lon: longitude,
         zone_id: '',
         stop_url: '',
-        location_type: 2,
+        location_type: 1,
         parent_station: parentDestination.find(
           ({ id }) => parent_location_id === id
         ).name
