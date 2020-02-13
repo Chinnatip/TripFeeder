@@ -1,10 +1,23 @@
 "use strict";
-var __spreadArrays = (this && this.__spreadArrays) || function () {
-    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
-    for (var r = Array(s), k = 0, i = 0; i < il; i++)
-        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
-            r[k] = a[j];
-    return r;
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spread = (this && this.__spread) || function () {
+    for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
+    return ar;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var strategy_sheet_1 = require("./strategy_sheet");
@@ -19,14 +32,14 @@ var PACK = [
 ];
 new Promise(function (resolve, reject) {
     strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'template_file').then(function (res) {
-        PACK = __spreadArrays(PACK, [res]);
+        PACK = __spread(PACK, [res]);
         resolve('updated');
     });
 })
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'agency').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated agency >');
         });
     });
@@ -34,7 +47,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'calendar').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated calendar >');
         });
     });
@@ -42,7 +55,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'stops').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated stops >');
         });
     });
@@ -50,7 +63,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'stop_times').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated stop_times >');
         });
     });
@@ -58,7 +71,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'fare_attributes').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated fare_attributes >');
         });
     });
@@ -66,7 +79,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'fare_rules').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated fare_rules >');
         });
     });
@@ -74,7 +87,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'routes').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated routes >');
         });
     });
@@ -82,7 +95,7 @@ new Promise(function (resolve, reject) {
     .then(function () {
     return new Promise(function (resolve, reject) {
         strategy_sheet_1.SHEET_Feeds(SHEET_KEY, 'trips').then(function (res) {
-            PACK = __spreadArrays(PACK, [res]);
+            PACK = __spread(PACK, [res]);
             resolve('updated trips >');
         });
     });
