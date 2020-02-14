@@ -1,4 +1,5 @@
 import * as knex from '../../db/knex'
+import * as moment from 'moment'
 
 export const agency = async (original: any[]) => {
   const uniqueArr: any[] = [...new Set(original.map(data => data.company))]
@@ -16,6 +17,25 @@ export const agency = async (original: any[]) => {
       agency_url: select.website,
       agency_timezone: 'Asia/Bangkok',
       agency_phone: select.main_phone_number
+    }
+  })
+}
+
+export const calendars = async (
+  original: any[],
+  default_postpone_month = 3
+) => {
+  const uniqueRoute: any[] = [...new Set(original.map(data => data.routeId))]
+  return uniqueRoute.map((route, index) => {
+    const mask = original.find(item => item.routeId === route)
+      .weekly_schedule_mask
+    return {
+      service_id: index + 1,
+      ...mask,
+      start_date: moment().format('YYYYMMDD'),
+      end_date: moment()
+        .add(default_postpone_month, 'months')
+        .format('YYYYMMDD')
     }
   })
 }
@@ -62,6 +82,40 @@ export const fareRules = async (original: any[], stopIDS) => {
       }
     }
   )
+}
+
+export const stopTimes = async (original, stops: any[], stopIDS) => {
+  return stops
+    .filter(({ stop_id }) => stop_id !== undefined)
+    .map(stop => {
+      const { stop_id, trip_id } = stop
+      const findStop = stopIDS.find(({ stop_name }) => stop_name === stop_id)
+      const filterFromStop = original.filter(
+        ({ fromDestination, tripId }) =>
+          fromDestination === stop_id && tripId === trip_id
+      )
+      const filterToStop = original.filter(
+        ({ toDestination, tripId }) =>
+          toDestination === stop_id && tripId === trip_id
+      )
+      //
+      const response = {
+        ...stop,
+        stop_id: findStop.stop_id,
+        departure_time:
+          filterFromStop.length > 0 ? filterFromStop[0].departure_time : '',
+        arrival_time:
+          filterToStop.length > 0 ? filterToStop[0].arrival_time : ''
+      }
+      //
+      if (response['departure_time'] === '') {
+        response['departure_time'] = response['arrival_time']
+      }
+      if (response['arrival_time'] === '') {
+        response['arrival_time'] = response['departure_time']
+      }
+      return response
+    })
 }
 
 export const stops = async (original: any[]) => {

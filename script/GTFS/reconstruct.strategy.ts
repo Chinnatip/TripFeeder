@@ -18,6 +18,7 @@ export const reconstructData = data =>
     .map(data => {
       const {
         id,
+        tripId,
         routeId,
         company,
         fromDestination,
@@ -38,6 +39,7 @@ export const reconstructData = data =>
       } = data
       return {
         id,
+        tripId,
         routeId,
         company,
         fromDestination,

@@ -1,4 +1,15 @@
 "use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -57,6 +68,7 @@ var __spread = (this && this.__spread) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var knex = require("../../db/knex");
+var moment = require("moment");
 exports.agency = function (original) { return __awaiter(void 0, void 0, void 0, function () {
     var uniqueArr, companyList;
     return __generator(this, function (_a) {
@@ -82,6 +94,22 @@ exports.agency = function (original) { return __awaiter(void 0, void 0, void 0, 
         }
     });
 }); };
+exports.calendars = function (original, default_postpone_month) {
+    if (default_postpone_month === void 0) { default_postpone_month = 3; }
+    return __awaiter(void 0, void 0, void 0, function () {
+        var uniqueRoute;
+        return __generator(this, function (_a) {
+            uniqueRoute = __spread(new Set(original.map(function (data) { return data.routeId; })));
+            return [2 /*return*/, uniqueRoute.map(function (route, index) {
+                    var mask = original.find(function (item) { return item.routeId === route; })
+                        .weekly_schedule_mask;
+                    return __assign(__assign({ service_id: index + 1 }, mask), { start_date: moment().format('YYYYMMDD'), end_date: moment()
+                            .add(default_postpone_month, 'months')
+                            .format('YYYYMMDD') });
+                })];
+        });
+    });
+};
 exports.fareAttributes = function (original, fareRuleIDS, agencyIDS) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, fareRuleIDS.map(function (_a) {
@@ -125,6 +153,40 @@ exports.fareRules = function (original, stopIDS) { return __awaiter(void 0, void
                     origin_id: origin.stop_id,
                     destination_id: destination.stop_id
                 };
+            })];
+    });
+}); };
+exports.stopTimes = function (original, stops, stopIDS) { return __awaiter(void 0, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        return [2 /*return*/, stops
+                .filter(function (_a) {
+                var stop_id = _a.stop_id;
+                return stop_id !== undefined;
+            })
+                .map(function (stop) {
+                var stop_id = stop.stop_id, trip_id = stop.trip_id;
+                var findStop = stopIDS.find(function (_a) {
+                    var stop_name = _a.stop_name;
+                    return stop_name === stop_id;
+                });
+                var filterFromStop = original.filter(function (_a) {
+                    var fromDestination = _a.fromDestination, tripId = _a.tripId;
+                    return fromDestination === stop_id && tripId === trip_id;
+                });
+                var filterToStop = original.filter(function (_a) {
+                    var toDestination = _a.toDestination, tripId = _a.tripId;
+                    return toDestination === stop_id && tripId === trip_id;
+                });
+                //
+                var response = __assign(__assign({}, stop), { stop_id: findStop.stop_id, departure_time: filterFromStop.length > 0 ? filterFromStop[0].departure_time : '', arrival_time: filterToStop.length > 0 ? filterToStop[0].arrival_time : '' });
+                //
+                if (response['departure_time'] === '') {
+                    response['departure_time'] = response['arrival_time'];
+                }
+                if (response['arrival_time'] === '') {
+                    response['arrival_time'] = response['departure_time'];
+                }
+                return response;
             })];
     });
 }); };

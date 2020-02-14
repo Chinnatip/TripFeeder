@@ -1,0 +1,5 @@
+trip_id,departure_time,arrival_time,stop_id,stop_sequence,pickup_type,drop_off_type
+1,,,Donsak,1,,
+1,,,Koh Samui,2,,
+1,,,Koh Phangan,3,,
+1,,,Koh Tao,4,,
